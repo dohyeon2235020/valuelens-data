@@ -90,13 +90,13 @@ export async function run() {
     });
     // 응답 칸 이름 기록 (값은 남기지 않음) — 형식이 바뀌었을 때 확인용
     const fields = sample ? Object.keys(sample) : [];
-    if (!sample) {
+    if (!Object.keys(series).length) {
         // 한 건도 없으면: 포털 예시 조건(2025-12-04 쌀)으로 다시 불러 응답 앞부분을 기록 (키는 지움)
         const q = new URLSearchParams({ pageNo: 1, numOfRows: 3, 'cond[exmn_ymd::GTE]': '20251204', 'cond[exmn_ymd::LTE]': '20251204', 'cond[ctgry_cd::EQ]': '100', returnType: 'JSON' });
         let probe = '';
         try { probe = await fetchText(`${ENDPOINT}?serviceKey=${encodeURIComponent(key)}&${q.toString()}`); } catch (e) { probe = 'ERR ' + e.message; }
         probe = probe.split(key).join('***').split(encodeURIComponent(key)).join('***').replace(/\s+/g, ' ').slice(0, 400);
-        throw new Error(`가격 자료가 없어요 (호출 ${calls}회${errors.length ? ', ' + errors[0] : ''}) · 예시 조건 응답: ${probe}`);
+        throw new Error(`가격 자료가 없어요 (호출 ${calls}회, 행 ${Object.keys(raw).length}종, 칸 ${JSON.stringify(sample ? Object.keys(sample) : sample)}${errors.length ? ', ' + errors[0] : ''}) · 예시 조건 응답: ${probe}`);
     }
     if (!Object.keys(series).length) throw new Error((errors[0] || '가격 자료가 없어요.') + (fields.length ? ` · 칸: ${fields.join(',')}` : ''));
     return { status: 'ok', count: Object.keys(series).length, message: `품목 ${Object.keys(series).length}개 · ${months[0]}~${months[months.length - 1]}${errors.length ? ` · 오류 ${errors.length}건` : ''}`, data: { months, priceField: sample ? priceKey(sample) : null, fields, series } };
