@@ -1,15 +1,14 @@
 // 모든 수집기를 차례로 실행하고, 결과를 분류별 폴더에 저장한 뒤 manifest.json(목록)을 만들어요.
 // 한 수집기가 실패해도 이전 파일은 그대로 두고 다음 수집기를 계속 실행해요.
 //   node collect.mjs            → 전부
-//   node collect.mjs naver_shop → 하나만
+//   node collect.mjs kamis      → 하나만
 import { readJSON, writeJSON, exists, products, mapping } from './collectors/lib.mjs';
-import * as naver from './collectors/naver-shop.mjs';
 import * as kamis from './collectors/kamis.mjs';
 import * as customs from './collectors/customs.mjs';
 import * as ecos from './collectors/ecos.mjs';
 import * as kosis from './collectors/kosis.mjs';
 
-const COLLECTORS = [naver, kamis, customs, ecos, kosis];
+const COLLECTORS = [kamis, customs, ecos, kosis];
 // 저장소에 파일로 들어 있는 DB (수집기 없이 고정)
 const STATIC_DB = [
     { id: 'chamgagyeok_csv', name: '한국소비자원 참가격 CSV (2026-10-23)', kind: 'commerce', type: 'db', provider: '한국소비자원 · data.go.kr 15083256', file: 'data/commerce/db/chamgagyeok-csv.json', note: '오프라인 체인 10곳 실제 가격 · 상품 60개' },
