@@ -24,18 +24,20 @@ async function autoParams(key, p) {
     rows.forEach(r => { (groups[r.OBJ_ID] = groups[r.OBJ_ID] || { sn: Number(r.OBJ_ID_SN) || 0, name: r.OBJ_NM, list: [] }).list.push(r); });
     const nm = s => String(s || '').replace(/\s/g, '');
     const pickFrom = (list, words) => {
-        for (const w of words) { const hit = list.find(r => nm(r.ITM_NM) === nm(w)) || list.find(r => nm(r.ITM_NM).startsWith(nm(w))) || list.filter(r => nm(r.ITM_NM).includes(nm(w))).sort((x, y) => nm(x.ITM_NM).length - nm(y.ITM_NM).length)[0]; if (hit) return hit; }
+        const core = x => nm(x).replace(/^[A-Z0-9.~\-]+(?=[가-힣])/, '').replace(/\([^)]*\)/g, '');
+        for (const w of words) { const hit = list.find(r => nm(r.ITM_NM) === nm(w)) || list.find(r => core(r.ITM_NM) === nm(w)) || list.find(r => nm(r.ITM_NM).startsWith(nm(w))) || list.filter(r => nm(r.ITM_NM).includes(nm(w))).sort((x, y) => nm(x.ITM_NM).length - nm(y.ITM_NM).length)[0]; if (hit) return hit; }
         return list.find(r => /^(전체|계|합계|전산업|전규모)/.test(nm(r.ITM_NM))) || list[0];
     };
     const itemGroup = groups.ITEM || Object.values(groups).find(g => /항목/.test(g.name));
     if (!itemGroup) throw new Error('항목(ITEM)을 찾지 못했어요.');
     const item = pickFrom(itemGroup.list, p.auto.item || []);
-    const out = { orgId: p.orgId, tblId: p.tblId, prdSe: p.prdSe || 'M', itmId: item.ITM_ID }, chosen = [`항목 ${item.ITM_NM}`];
+    const out = { orgId: p.orgId, tblId: p.tblId, prdSe: p.prdSe || 'M', itmId: item.ITM_ID }, chosen = [`항목 ${item.ITM_NM}`], cand = [];
     Object.entries(groups).filter(([id]) => id !== 'ITEM' && groups[id] !== itemGroup).sort((a, b) => a[1].sn - b[1].sn).forEach(([, g], i) => {
         const c = pickFrom(g.list, p.auto.pick || []);
         out[`objL${i + 1}`] = c.ITM_ID; chosen.push(`${g.name} ${c.ITM_NM}`);
+        cand.push(...g.list.filter(r => (p.auto.pick || []).some(w => nm(r.ITM_NM).includes(nm(w)))).slice(0, 8).map(r => r.ITM_NM));
     });
-    return { params: out, chosen };
+    return { params: out, chosen, cand };
 }
 
 export async function run() {
@@ -44,8 +46,8 @@ export async function run() {
     let p = mapping().kosis.params;
     if (env('KOSIS_PARAMS')) { try { p = JSON.parse(env('KOSIS_PARAMS')); } catch (e) { throw new Error('KOSIS_PARAMS가 JSON 형식이 아니에요.'); } }
     if (!p) return { status: 'needs-config', message: '쓸 임금 통계표(KOSIS_PARAMS)를 아직 정하지 않아 건너뛰었어요.' };
-    let chosen = [];
-    if (p.auto) { const a = await autoParams(key, p); p = a.params; chosen = a.chosen; }
+    let chosen = [], cand = [];
+    if (p.auto) { const a = await autoParams(key, p); p = a.params; chosen = a.chosen; cand = a.cand; }
     const months = lastMonths(12), start = months[0].replace('-', ''), end = months[months.length - 1].replace('-', '');
     const u = new URL(p.userStatsId ? `${KOSIS}/statisticsData.do` : `${KOSIS}/Param/statisticsParameterData.do`);
     Object.entries({ method: 'getList', apiKey: key, format: 'json', jsonVD: 'Y', prdSe: p.prdSe || 'M', startPrdDe: start, endPrdDe: end, ...p }).forEach(([k, v]) => u.searchParams.set(k, v));
@@ -57,5 +59,5 @@ export async function run() {
     if (!have.length) throw new Error('임금 자료가 없어요. 통계표 설정을 확인하세요.');
     const last = byMonth[have[have.length - 1]];
     return { status: 'ok', count: have.length, message: `${have[0]}~${have[have.length - 1]} 임금 ${have.length}개월${chosen.length ? ` (${chosen.join(', ')})` : ''}`,
-        data: { months: have, table: { orgId: p.orgId, tblId: p.tblId, chosen }, series: { wage: { label: `제조업 월 임금총액 (${d[0]?.TBL_NM || 'KOSIS'})`, unit: 'index', valueLast: last, values: have.map(m => Math.round(byMonth[m] / last * 1000) / 10) } } } };
+        data: { months: have, table: { orgId: p.orgId, tblId: p.tblId, chosen, candidates: cand }, series: { wage: { label: `제조업 월 임금총액 (${d[0]?.TBL_NM || 'KOSIS'})`, unit: 'index', valueLast: last, values: have.map(m => Math.round(byMonth[m] / last * 1000) / 10) } } } };
 }
