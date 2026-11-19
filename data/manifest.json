@@ -2,7 +2,7 @@
  "app": "ValueLens",
  "kind": "data-manifest",
  "version": 1,
- "generatedAt": "2026-11-19T01:46:08.777Z",
+ "generatedAt": "2026-11-19T01:47:56.826Z",
  "folders": {
   "distribution/db": "유통 · DB",
   "distribution/api": "유통 · API",
@@ -32,7 +32,7 @@
    "file": "data/distribution/db/chamgagyeok-cost.json",
    "note": "실제 가격 하위 25% ÷ 적정 배수 상한",
    "status": "ok",
-   "updatedAt": "2026-11-19T01:46:08.777Z",
+   "updatedAt": "2026-11-19T01:47:56.826Z",
    "count": 60
   },
   {
@@ -44,10 +44,10 @@
    "file": null,
    "note": "식품 원재료비 변동률 (쌀·콩·감자·축산물 등)",
    "status": "error",
-   "message": "가격 자료가 없어요.",
+   "message": "가격 자료가 없어요 (호출 42회, 행 0종, 칸 []) · 예시 조건 응답: {\"response\":{\"body\":{\"dataType\":\"JSON\",\"items\":{\"item\":[]},\"numOfRows\":3,\"pageNo\":1,\"totalCount\":0},\"header\":{\"resultCode\":\"0\",\"resultMsg\":\"정상\"}}} ",
    "count": 0,
    "updatedAt": null,
-   "checkedAt": "2026-11-19T01:46:08.777Z"
+   "checkedAt": "2026-11-19T01:47:56.826Z"
   },
   {
    "id": "customs",
