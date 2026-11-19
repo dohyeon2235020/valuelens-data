@@ -24,7 +24,7 @@ async function autoParams(key, p) {
     rows.forEach(r => { (groups[r.OBJ_ID] = groups[r.OBJ_ID] || { sn: Number(r.OBJ_ID_SN) || 0, name: r.OBJ_NM, list: [] }).list.push(r); });
     const nm = s => String(s || '').replace(/\s/g, '');
     const pickFrom = (list, words) => {
-        for (const w of words) { const hit = list.find(r => nm(r.ITM_NM) === nm(w)) || list.find(r => nm(r.ITM_NM).includes(nm(w))); if (hit) return hit; }
+        for (const w of words) { const hit = list.find(r => nm(r.ITM_NM) === nm(w)) || list.find(r => nm(r.ITM_NM).startsWith(nm(w))) || list.filter(r => nm(r.ITM_NM).includes(nm(w))).sort((x, y) => nm(x.ITM_NM).length - nm(y.ITM_NM).length)[0]; if (hit) return hit; }
         return list.find(r => /^(전체|계|합계|전산업|전규모)/.test(nm(r.ITM_NM))) || list[0];
     };
     const itemGroup = groups.ITEM || Object.values(groups).find(g => /항목/.test(g.name));

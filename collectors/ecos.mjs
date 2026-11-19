@@ -14,7 +14,7 @@ export async function run() {
     const list = await fetchJSON(`${base}/StatisticItemList/${encodeURIComponent(key)}/json/kr/1/2000/${cfg.stat_code}`);
     if (list.RESULT) throw new Error(`ECOS ${list.RESULT.CODE}: ${list.RESULT.MESSAGE}`);
     const items = (list.StatisticItemList?.row || []).filter(r => !r.CYCLE || r.CYCLE === 'M');
-    const pick = names => { for (const n of names) { const c = items.filter(r => String(r.ITEM_NAME).replace(/\s/g, '').includes(n)).sort((a, b) => String(a.ITEM_NAME).length - String(b.ITEM_NAME).length)[0]; if (c) return c; } return null; };
+    const pick = names => { for (const n of names) { if (/^[0-9A-Z*]+AA$/.test(n)) { const e = items.find(r => r.ITEM_CODE === n); if (e) return e; continue; } const c = items.filter(r => String(r.ITEM_NAME).replace(/\s/g, '').includes(n)).sort((a, b) => String(a.ITEM_NAME).length - String(b.ITEM_NAME).length)[0]; if (c) return c; } return null; };
     const want = { ...Object.fromEntries(Object.entries(cfg.groups).map(([g, names]) => [g, pick(names)])), logistics: pick(cfg.logistics.names) };
     const series = {}, errors = [];
     for (const [g, it] of Object.entries(want)) {
