@@ -1,0 +1,128 @@
+{
+ "source": {
+  "id": "kamis",
+  "name": "KAMIS 농축수산물 가격",
+  "kind": "distribution",
+  "type": "api",
+  "provider": "한국농수산식품유통공사 · data.go.kr 일별 도,소매 가격정보"
+ },
+ "collectedAt": "2026-11-19T01:52:14.627Z",
+ "months": [
+  "2026-05",
+  "2026-06",
+  "2026-07",
+  "2026-08",
+  "2026-09",
+  "2026-10",
+  "2026-11"
+ ],
+ "priceField": "exmn_dd_cnvs_prc",
+ "fields": [
+  "ctgry_cd",
+  "ctgry_nm",
+  "exmn_dd_cnvs_prc",
+  "exmn_dd_prc",
+  "exmn_ymd",
+  "grd_cd",
+  "grd_nm",
+  "item_cd",
+  "item_nm",
+  "mrkt_cd",
+  "mrkt_nm",
+  "orgnl_reg_dt",
+  "se_cd",
+  "se_nm",
+  "sgg_cd",
+  "sgg_nm",
+  "unit",
+  "unit_sz",
+  "vrty_cd",
+  "vrty_nm"
+ ],
+ "series": {
+  "쌀": {
+   "label": "쌀 (식량작물) 소매가격 지수",
+   "unit": "index",
+   "values": [
+    96.9,
+    96.9,
+    96.1,
+    94.4,
+    93.7,
+    99.7,
+    100
+   ],
+   "kinds": 4
+  },
+  "콩": {
+   "label": "콩 (식량작물) 소매가격 지수",
+   "unit": "index",
+   "values": [
+    96.9,
+    96.9,
+    96.8,
+    100,
+    100.8,
+    100,
+    100
+   ],
+   "kinds": 1
+  },
+  "감자": {
+   "label": "감자 (식량작물) 소매가격 지수",
+   "unit": "index",
+   "values": [
+    117.2,
+    103.9,
+    92.7,
+    85,
+    85.9,
+    98.2,
+    100
+   ],
+   "kinds": 4
+  },
+  "소": {
+   "label": "소 (축산물) 소매가격 지수",
+   "unit": "index",
+   "values": [
+    504.5,
+    504.5,
+    96.6,
+    96.6,
+    96.6,
+    100,
+    100
+   ],
+   "kinds": 15
+  },
+  "돼지": {
+   "label": "돼지 (축산물) 소매가격 지수",
+   "unit": "index",
+   "values": [
+    504.5,
+    504.5,
+    96.6,
+    96.6,
+    96.6,
+    100,
+    100
+   ],
+   "kinds": 4
+  },
+  "닭": {
+   "label": "닭 (축산물) 소매가격 지수",
+   "unit": "index",
+   "values": [
+    504.5,
+    504.5,
+    96.6,
+    96.6,
+    96.6,
+    100,
+    100
+   ],
+   "kinds": 6
+  }
+ }
+}
