@@ -2,7 +2,7 @@
  "app": "ValueLens",
  "kind": "data-manifest",
  "version": 1,
- "generatedAt": "2026-11-19T01:17:41.731Z",
+ "generatedAt": "2026-11-19T01:26:37.895Z",
  "folders": {
   "distribution/db": "유통 · DB",
   "distribution/api": "유통 · API",
@@ -32,22 +32,8 @@
    "file": "data/distribution/db/chamgagyeok-cost.json",
    "note": "실제 가격 하위 25% ÷ 적정 배수 상한",
    "status": "ok",
-   "updatedAt": "2026-11-19T01:17:41.731Z",
+   "updatedAt": "2026-11-19T01:26:37.895Z",
    "count": 60
-  },
-  {
-   "id": "naver_shop",
-   "name": "네이버 쇼핑 검색 API",
-   "kind": "commerce",
-   "type": "api",
-   "provider": "네이버 (developers.naver.com)",
-   "file": null,
-   "note": "쇼핑몰별 최저가·상품 링크·대표 이미지. 이미지 저작권은 각 판매처에 있어요.",
-   "status": "skipped",
-   "message": "NAVER_CLIENT_ID / NAVER_CLIENT_SECRET이 없어 건너뛰었어요.",
-   "count": 0,
-   "updatedAt": null,
-   "checkedAt": "2026-11-19T01:17:41.731Z"
   },
   {
    "id": "kamis",
@@ -61,7 +47,7 @@
    "message": "KAMIS_CERT_KEY / KAMIS_CERT_ID가 없어 건너뛰었어요.",
    "count": 0,
    "updatedAt": null,
-   "checkedAt": "2026-11-19T01:17:41.731Z"
+   "checkedAt": "2026-11-19T01:26:37.895Z"
   },
   {
    "id": "customs",
@@ -75,7 +61,7 @@
    "message": "DATA_GO_KR_KEY가 없어 건너뛰었어요.",
    "count": 0,
    "updatedAt": null,
-   "checkedAt": "2026-11-19T01:17:41.731Z"
+   "checkedAt": "2026-11-19T01:26:37.895Z"
   },
   {
    "id": "ecos",
@@ -89,7 +75,7 @@
    "message": "ECOS_KEY가 없어 건너뛰었어요.",
    "count": 0,
    "updatedAt": null,
-   "checkedAt": "2026-11-19T01:17:41.731Z"
+   "checkedAt": "2026-11-19T01:26:37.895Z"
   },
   {
    "id": "kosis",
@@ -103,7 +89,7 @@
    "message": "KOSIS_KEY가 없어 건너뛰었어요.",
    "count": 0,
    "updatedAt": null,
-   "checkedAt": "2026-11-19T01:17:41.731Z"
+   "checkedAt": "2026-11-19T01:26:37.895Z"
   }
  ]
 }
