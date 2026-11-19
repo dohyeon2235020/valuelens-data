@@ -18,11 +18,13 @@ globalThis.fetch = async (url) => {
         items.push({ title: `${base} ${size} x 10개 묶음`, link: 'https://x/mock', image: '', lprice: String(p.median_20261023 * 9), mallName: '쿠팡', productId: '9', productType: '2' });
         return json({ total: items.length, items });
     }
-    if (u.hostname === 'www.kamis.or.kr') {
-        const cat = u.searchParams.get('p_item_category_code'), day = u.searchParams.get('p_regday');
-        const k = months(7).indexOf(day.slice(0, 7));
+    if (u.hostname === 'apis.data.go.kr' && u.pathname.startsWith('/B552845/perDay')) {
+        // 공공데이터포털 '일별 도,소매 가격정보' (칸 이름은 추정)
+        const cat = u.searchParams.get('cond[ctgry_cd::EQ]'), day = u.searchParams.get('cond[exmn_ymd::LTE]');
+        const k = months(7).indexOf(day.slice(0, 4) + '-' + day.slice(4, 6));
         const names = { '100': ['쌀', '콩', '감자'], '500': ['쇠고기', '돼지고기', '닭고기'] }[cat] || [];
-        return json({ condition: [], data: { error_code: '000', item: names.map(n => ({ item_name: n, kind_name: '일반', rank: '상품', unit: '1kg', dpr1: String(Math.round(5000 * (1 + (k - 6) * 0.01 * (rnd(n) - 0.3)))) })) } });
+        const item = names.flatMap(n => [['01', '소매'], ['02', '중도매']].map(([sc, sn]) => ({ exmn_ymd: day, se_cd: sc, se_nm: sn, ctgry_cd: cat, item_cd: '1', item_nm: n, vrty_nm: '일반', grd_nm: '상품', unit_nm: '1kg', exmn_dd_avg_prc: String(Math.round(5000 * (1 + (k - 6) * 0.01 * (rnd(n) - 0.3)))) })));
+        return json({ response: { header: { resultCode: '0', resultMsg: '정상' }, body: { items: { item }, numOfRows: 1000, pageNo: 1, totalCount: item.length } } });
     }
     if (u.hostname === 'apis.data.go.kr') {
         const hs = u.searchParams.get('hsSgn'), ms = months(9).slice(0, 7);
