@@ -6,7 +6,7 @@ on:
   workflow_dispatch:        # Actions 탭에서 'Run workflow'로 바로 실행
     inputs:
       only:
-        description: '하나만 실행할 소스 ID (비우면 전부: naver_shop, kamis, customs, ecos, kosis, foodsafety)'
+        description: '하나만 실행할 소스 ID (비우면 전부: naver_shop, kamis, customs, ecos, kosis)'
         required: false
         default: ''
 
@@ -36,7 +36,6 @@ jobs:
           ECOS_KEY: ${{ secrets.ECOS_KEY }}
           KOSIS_KEY: ${{ secrets.KOSIS_KEY }}
           KOSIS_PARAMS: ${{ vars.KOSIS_PARAMS }}
-          FOODSAFETY_KEY: ${{ secrets.FOODSAFETY_KEY }}
         run: node collect.mjs ${{ github.event.inputs.only }}
       - name: 결과 저장
         run: |
