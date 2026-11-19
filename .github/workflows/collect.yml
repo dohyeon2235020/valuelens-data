@@ -6,7 +6,7 @@ on:
   workflow_dispatch:        # Actions 탭에서 'Run workflow'로 바로 실행
     inputs:
       only:
-        description: '하나만 실행할 소스 ID (비우면 전부: naver_shop, kamis, customs, ecos, kosis)'
+        description: '하나만 실행할 소스 ID (비우면 전부: kamis, customs, ecos, kosis)'
         required: false
         default: ''
 
@@ -28,8 +28,6 @@ jobs:
           node-version: '20'
       - name: 수집
         env:
-          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
-          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
           KAMIS_CERT_KEY: ${{ secrets.KAMIS_CERT_KEY }}
           KAMIS_CERT_ID: ${{ secrets.KAMIS_CERT_ID }}
           DATA_GO_KR_KEY: ${{ secrets.DATA_GO_KR_KEY }}
