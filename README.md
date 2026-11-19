@@ -14,7 +14,6 @@ ValueLens(밸류렌즈)가 읽는 **유통·커머스 데이터 수집 저장소
 | | | `customs.json` | 관세청 HS 코드별 수입 단가 지수 |
 | | | `ecos.json` | 한국은행 생산자물가지수 (카테고리별 · 운송) |
 | | | `kosis.json` | 통계청 월평균 임금 지수 |
-| | | `foodsafety-barcode.json` | 식약처 바코드 연계 제품정보 (보조) |
 | `data/commerce/db/` | 커머스 · DB | `chamgagyeok-csv.json` | 한국소비자원 참가격 CSV 요약 (고정) |
 | `data/commerce/api/` | 커머스 · API | `naver-shop.json` | 네이버 쇼핑 검색 — 쇼핑몰별 최저가·링크·이미지 |
 | `data/` | 목록 | `manifest.json` | 소스 목록·분류·상태·수집일 |
@@ -32,7 +31,6 @@ ValueLens(밸류렌즈)가 읽는 **유통·커머스 데이터 수집 저장소
    | `DATA_GO_KR_KEY` | data.go.kr → '관세청_품목별 수출입실적(GW)'(15101609) 활용신청 → 일반 인증키(Decoding) |
    | `ECOS_KEY` | ecos.bok.or.kr → Open API → 인증키 신청 |
    | `KOSIS_KEY` | kosis.kr/openapi → 인증키 신청 |
-   | `FOODSAFETY_KEY` | foodsafetykorea.go.kr → 공공데이터 활용 → 인증키 신청 |
 
 3. **Secrets 넣기**: 저장소 Settings → Secrets and variables → Actions → New repository secret. 키가 없는 API는 건너뛰어요.
 4. **KOSIS 통계표**: 기본으로 고용노동부 사업체노동력조사 '산업/규모별 임금 및 근로시간'(118 / DT_118N_MON054)에서 **제조업 · 전규모 임금총액**을 자동으로 골라요. 다른 표를 쓰려면 Settings → Secrets and variables → Actions → **Variables** 탭 → `KOSIS_PARAMS`에 JSON을 넣어요.
@@ -44,6 +42,7 @@ ValueLens(밸류렌즈)가 읽는 **유통·커머스 데이터 수집 저장소
 
 - **커머스**: 실제 가격 상품 60개를 네이버 쇼핑에서 검색해 쇼핑몰별(쿠팡·네이버·11번가·G마켓·옥션·SSG·롯데ON·컬리 … + 기타) 최저가를 판매처로 붙여요. 쇼핑몰 스위치를 끄면 그 쇼핑몰의 가격·링크·이미지가 모든 상품에서 빠져요. 상품명 유사도 60% 이상 · 용량 표기 일치 · 가격이 참가격의 40~250%일 때만 자동으로 붙이고, 나머지는 `pending`으로 남겨요.
 - **유통**: 원가 금액은 그대로 두고, 원재료비·공임·포장물류비마다 `cost-drivers.json`의 후보 지표(앞에서부터 켜져 있고 값이 있는 것)의 실제 변동률로 최근 7개월 원가 추이를 다시 그려요. 원가 반영 판정(판매가가 원가보다 더 올랐나)이 이 추이를 써요.
+- **기존 유통 항목과의 관계**: 실제 데이터는 ValueLens에 원래 있던 유통 항목에 붙어요. KAMIS → 'aT KAMIS 농수산물 시세', 관세청 → 'HS 코드별 수입 통관 단가'(+ '임산물·목재 시세'의 대체 출처), 한국은행 생산자물가 → 각 원재료비 항목의 대체 출처와 '공공 원가 DB'의 포장·물류비, 통계청 임금 → '직업별 표준 노임 단가'의 대체 출처. 항목마다 실제 데이터를 켜고 끌 수 있고, 끄면 고정값을 써요.
 - 연결 규칙은 `config/mapping.json`에서 바꿔요 (키워드 → KAMIS 품목·HS 코드·생산자물가 그룹). ValueLens는 이 파일을 직접 읽어 가상 상품까지 모든 상품의 지표를 정해요.
 - `config/products.json`은 수집 대상(실제 가격 상품 60개) 목록이에요.
 
