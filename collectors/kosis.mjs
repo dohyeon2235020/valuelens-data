@@ -59,5 +59,5 @@ export async function run() {
     if (!have.length) throw new Error('임금 자료가 없어요. 통계표 설정을 확인하세요.');
     const last = byMonth[have[have.length - 1]];
     return { status: 'ok', count: have.length, message: `${have[0]}~${have[have.length - 1]} 임금 ${have.length}개월${chosen.length ? ` (${chosen.join(', ')})` : ''}`,
-        data: { months: have, table: { orgId: p.orgId, tblId: p.tblId, chosen, candidates: cand }, series: { wage: { label: `제조업 월 임금총액 (${d[0]?.TBL_NM || 'KOSIS'})`, unit: 'index', valueLast: last, values: have.map(m => Math.round(byMonth[m] / last * 1000) / 10) } } } };
+        data: { months: have, table: { orgId: p.orgId, tblId: p.tblId, chosen, candidates: cand }, series: { wage: { label: `제조업 월 ${(chosen[0] || '항목 임금').replace(/^항목\s*/, '')} (${d[0]?.TBL_NM || 'KOSIS'})`, unit: 'index', valueLast: last, values: have.map(m => Math.round(byMonth[m] / last * 1000) / 10) } } } };
 }
