@@ -2,7 +2,7 @@
  "app": "ValueLens",
  "kind": "data-manifest",
  "version": 1,
- "generatedAt": "2026-11-19T01:06:22.711Z",
+ "generatedAt": "2026-11-19T01:17:41.731Z",
  "folders": {
   "distribution/db": "유통 · DB",
   "distribution/api": "유통 · API",
@@ -32,7 +32,7 @@
    "file": "data/distribution/db/chamgagyeok-cost.json",
    "note": "실제 가격 하위 25% ÷ 적정 배수 상한",
    "status": "ok",
-   "updatedAt": "2026-11-19T01:06:22.711Z",
+   "updatedAt": "2026-11-19T01:17:41.731Z",
    "count": 60
   },
   {
@@ -47,7 +47,7 @@
    "message": "NAVER_CLIENT_ID / NAVER_CLIENT_SECRET이 없어 건너뛰었어요.",
    "count": 0,
    "updatedAt": null,
-   "checkedAt": "2026-11-19T01:06:22.711Z"
+   "checkedAt": "2026-11-19T01:17:41.731Z"
   },
   {
    "id": "kamis",
@@ -61,7 +61,7 @@
    "message": "KAMIS_CERT_KEY / KAMIS_CERT_ID가 없어 건너뛰었어요.",
    "count": 0,
    "updatedAt": null,
-   "checkedAt": "2026-11-19T01:06:22.711Z"
+   "checkedAt": "2026-11-19T01:17:41.731Z"
   },
   {
    "id": "customs",
@@ -75,7 +75,7 @@
    "message": "DATA_GO_KR_KEY가 없어 건너뛰었어요.",
    "count": 0,
    "updatedAt": null,
-   "checkedAt": "2026-11-19T01:06:22.711Z"
+   "checkedAt": "2026-11-19T01:17:41.731Z"
   },
   {
    "id": "ecos",
@@ -89,7 +89,7 @@
    "message": "ECOS_KEY가 없어 건너뛰었어요.",
    "count": 0,
    "updatedAt": null,
-   "checkedAt": "2026-11-19T01:06:22.711Z"
+   "checkedAt": "2026-11-19T01:17:41.731Z"
   },
   {
    "id": "kosis",
@@ -103,21 +103,7 @@
    "message": "KOSIS_KEY가 없어 건너뛰었어요.",
    "count": 0,
    "updatedAt": null,
-   "checkedAt": "2026-11-19T01:06:22.711Z"
-  },
-  {
-   "id": "foodsafety",
-   "name": "식약처 바코드 연계 제품정보",
-   "kind": "distribution",
-   "type": "api",
-   "provider": "식품의약품안전처 식품안전나라 (C005)",
-   "file": null,
-   "note": "제조사·바코드·식품 유형 (보조 정보, 원가 계산에는 쓰지 않음)",
-   "status": "skipped",
-   "message": "FOODSAFETY_KEY가 없어 건너뛰었어요.",
-   "count": 0,
-   "updatedAt": null,
-   "checkedAt": "2026-11-19T01:06:22.711Z"
+   "checkedAt": "2026-11-19T01:17:41.731Z"
   }
  ]
 }
