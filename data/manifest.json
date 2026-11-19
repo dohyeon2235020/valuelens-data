@@ -2,7 +2,7 @@
  "app": "ValueLens",
  "kind": "data-manifest",
  "version": 1,
- "generatedAt": "2026-11-19T01:56:20.330Z",
+ "generatedAt": "2026-11-19T02:15:08.363Z",
  "folders": {
   "distribution/db": "유통 · DB",
   "distribution/api": "유통 · API",
@@ -32,7 +32,7 @@
    "file": "data/distribution/db/chamgagyeok-cost.json",
    "note": "실제 가격 하위 25% ÷ 적정 배수 상한",
    "status": "ok",
-   "updatedAt": "2026-11-19T01:56:20.330Z",
+   "updatedAt": "2026-11-19T02:15:08.363Z",
    "count": 60
   },
   {
@@ -46,8 +46,8 @@
    "status": "ok",
    "message": "품목 6개 · 2026-05~2026-11",
    "count": 6,
-   "updatedAt": "2026-11-19T01:56:20.330Z",
-   "checkedAt": "2026-11-19T01:56:20.330Z"
+   "updatedAt": "2026-11-19T02:15:08.363Z",
+   "checkedAt": "2026-11-19T02:15:08.363Z"
   },
   {
    "id": "customs",
@@ -60,8 +60,8 @@
    "status": "ok",
    "message": "HS 코드 34개",
    "count": 34,
-   "updatedAt": "2026-11-19T01:34:29.434Z",
-   "checkedAt": "2026-11-19T01:34:29.434Z"
+   "updatedAt": "2026-11-19T02:15:08.363Z",
+   "checkedAt": "2026-11-19T02:15:08.363Z"
   },
   {
    "id": "ecos",
@@ -69,13 +69,13 @@
    "kind": "distribution",
    "type": "api",
    "provider": "한국은행 ECOS (ecos.bok.or.kr)",
-   "file": null,
+   "file": "data/distribution/api/ecos.json",
    "note": "카테고리별 생산자물가(원재료비 기본값) · 운송 서비스 물가(포장·물류비)",
-   "status": "skipped",
-   "message": "ECOS_KEY가 없어 건너뛰었어요.",
-   "count": 0,
-   "updatedAt": null,
-   "checkedAt": "2026-11-19T01:34:29.434Z"
+   "status": "ok",
+   "message": "지수 6개",
+   "count": 6,
+   "updatedAt": "2026-11-19T02:15:08.363Z",
+   "checkedAt": "2026-11-19T02:15:08.363Z"
   },
   {
    "id": "kosis",
@@ -83,13 +83,13 @@
    "kind": "distribution",
    "type": "api",
    "provider": "통계청 KOSIS · 고용노동부 사업체노동력조사",
-   "file": null,
+   "file": "data/distribution/api/kosis.json",
    "note": "공임·노임 변동률 (제조업 월 임금총액)",
-   "status": "skipped",
-   "message": "KOSIS_KEY가 없어 건너뛰었어요.",
-   "count": 0,
-   "updatedAt": null,
-   "checkedAt": "2026-11-19T01:34:29.434Z"
+   "status": "ok",
+   "message": "2026-02~2026-08 임금 7개월 (항목 전체임금총액, 산업분류 식료품 제조업, 규모별 전규모(1인이상))",
+   "count": 7,
+   "updatedAt": "2026-11-19T02:15:08.363Z",
+   "checkedAt": "2026-11-19T02:15:08.363Z"
   }
  ]
 }
