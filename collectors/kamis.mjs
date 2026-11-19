@@ -28,7 +28,7 @@ function rowsOf(text) {
         Object.values(o).forEach(walk);
     })(d?.response?.body || d?.body || d);
     // item이 1개일 때 배열이 아닌 객체로 오는 경우
-    if (!rows.length) { const it = (d?.response?.body || d?.body)?.items?.item; if (it && typeof it === 'object') rows = [it]; }
+    if (!rows.length) { const it = (d?.response?.body || d?.body)?.items?.item; if (it && typeof it === 'object' && !Array.isArray(it)) rows = [it]; }
     if (!rows.length && hdr.resultCode && !/^0+$/.test(String(hdr.resultCode))) throw new Error(`${hdr.resultCode} ${hdr.resultMsg || ''}`.trim());
     return { rows, total };
 }
@@ -91,12 +91,28 @@ export async function run() {
     // 응답 칸 이름 기록 (값은 남기지 않음) — 형식이 바뀌었을 때 확인용
     const fields = sample ? Object.keys(sample) : [];
     if (!Object.keys(series).length) {
-        // 한 건도 없으면: 포털 예시 조건(2025-12-04 쌀)으로 다시 불러 응답 앞부분을 기록 (키는 지움)
-        const q = new URLSearchParams({ pageNo: 1, numOfRows: 3, 'cond[exmn_ymd::GTE]': '20251204', 'cond[exmn_ymd::LTE]': '20251204', 'cond[ctgry_cd::EQ]': '100', returnType: 'JSON' });
-        let probe = '';
-        try { probe = await fetchText(`${ENDPOINT}?serviceKey=${encodeURIComponent(key)}&${q.toString()}`); } catch (e) { probe = 'ERR ' + e.message; }
-        probe = probe.split(key).join('***').split(encodeURIComponent(key)).join('***').replace(/\s+/g, ' ').slice(0, 400);
-        throw new Error(`가격 자료가 없어요 (호출 ${calls}회, 행 ${Object.keys(raw).length}종, 칸 ${JSON.stringify(sample ? Object.keys(sample) : sample)}${errors.length ? ', ' + errors[0] : ''}) · 예시 조건 응답: ${probe}`);
+        // 한 건도 없으면: 조건을 바꿔 가며 건수만 확인해 기록 (키는 지움)
+        const base = { 'cond[exmn_ymd::GTE]': '20251204', 'cond[exmn_ymd::LTE]': '20251204' };
+        const tries = {
+            포털예시: { ...base, 'cond[se_cd::EQ]': '02', 'cond[ctgry_cd::EQ]': '100', 'cond[item_cd::EQ]': '111', 'cond[vrty_cd::EQ]': '01', 'cond[grd_cd::EQ]': '04', 'cond[sgg_cd::EQ]': '1101', 'cond[mrkt_cd::EQ]': '0110253' },
+            품목만: { ...base, 'cond[se_cd::EQ]': '02', 'cond[ctgry_cd::EQ]': '100', 'cond[item_cd::EQ]': '111' },
+            구분01: { ...base, 'cond[se_cd::EQ]': '01', 'cond[ctgry_cd::EQ]': '100' },
+            구분02: { ...base, 'cond[se_cd::EQ]': '02', 'cond[ctgry_cd::EQ]': '100' },
+            조건없음: { ...base },
+            최근: { 'cond[exmn_ymd::GTE]': yest.replace(/-/g, ''), 'cond[exmn_ymd::LTE]': yest.replace(/-/g, '') },
+        };
+        const out = [];
+        for (const [name, c] of Object.entries(tries)) {
+            const q = new URLSearchParams({ pageNo: 1, numOfRows: 1, ...c, returnType: 'JSON' });
+            let t = '';
+            try { t = await fetchText(`${ENDPOINT}?serviceKey=${encodeURIComponent(key)}&${q.toString()}`); } catch (e) { t = 'ERR ' + e.message; }
+            t = t.split(key).join('***').split(encodeURIComponent(key)).join('***');
+            const tc = (t.match(/"totalCount"\s*:\s*"?(\d+)/) || [])[1];
+            const it = (t.match(/"item"\s*:\s*\[(\{[^\]]{0,300})/) || [])[1];
+            out.push(`${name}=${tc ?? t.replace(/\s+/g, ' ').slice(0, 120)}${it ? ' ' + it.slice(0, 300) : ''}`);
+            await sleep(150);
+        }
+        throw new Error(`가격 자료가 없어요 (호출 ${calls}회, 행 ${Object.keys(raw).length}종${errors.length ? ', ' + errors[0] : ''}) · 시험: ${out.join(' | ')}`);
     }
     if (!Object.keys(series).length) throw new Error((errors[0] || '가격 자료가 없어요.') + (fields.length ? ` · 칸: ${fields.join(',')}` : ''));
     return { status: 'ok', count: Object.keys(series).length, message: `품목 ${Object.keys(series).length}개 · ${months[0]}~${months[months.length - 1]}${errors.length ? ` · 오류 ${errors.length}건` : ''}`, data: { months, priceField: sample ? priceKey(sample) : null, fields, series } };
