@@ -2,7 +2,7 @@
  "app": "ValueLens",
  "kind": "data-manifest",
  "version": 1,
- "generatedAt": "2026-11-19T01:34:29.434Z",
+ "generatedAt": "2026-11-19T01:44:38.536Z",
  "folders": {
   "distribution/db": "유통 · DB",
   "distribution/api": "유통 · API",
@@ -32,22 +32,22 @@
    "file": "data/distribution/db/chamgagyeok-cost.json",
    "note": "실제 가격 하위 25% ÷ 적정 배수 상한",
    "status": "ok",
-   "updatedAt": "2026-11-19T01:34:29.434Z",
+   "updatedAt": "2026-11-19T01:44:38.536Z",
    "count": 60
   },
   {
    "id": "kamis",
-   "name": "KAMIS 농축수산물 소매가격",
+   "name": "KAMIS 농축수산물 가격",
    "kind": "distribution",
    "type": "api",
-   "provider": "한국농수산식품유통공사 (kamis.or.kr)",
+   "provider": "한국농수산식품유통공사 · data.go.kr 일별 도,소매 가격정보",
    "file": null,
    "note": "식품 원재료비 변동률 (쌀·콩·감자·축산물 등)",
-   "status": "skipped",
-   "message": "KAMIS_CERT_KEY / KAMIS_CERT_ID가 없어 건너뛰었어요.",
+   "status": "error",
+   "message": "가격 자료가 없어요.",
    "count": 0,
    "updatedAt": null,
-   "checkedAt": "2026-11-19T01:34:29.434Z"
+   "checkedAt": "2026-11-19T01:44:38.536Z"
   },
   {
    "id": "customs",
