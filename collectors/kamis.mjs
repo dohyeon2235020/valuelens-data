@@ -38,7 +38,8 @@ function rowsOf(text) {
 // 행에서 가격 칸 고르기: 이름에 prc/price가 들어간 숫자 칸 (평균가 우선)
 function priceKey(row) {
     const ks = Object.keys(row).filter(k => /prc|price|pric/i.test(k) && !/_cd$|unit|nm$/i.test(k) && num(row[k]) != null);
-    return ks.find(k => /cnvs/i.test(k)) || ks.find(k => /avg/i.test(k)) || ks.find(k => /dd|day/i.test(k)) || ks[0];
+    // 환산가(cnvs)는 축산물에서 값이 틀리게 오는 경우가 있어 조사 가격을 먼저 씀 (단위별로 따로 지수를 내므로 환산이 필요 없음)
+    return ks.find(k => /dd_prc$/i.test(k) && !/cnvs/i.test(k)) || ks.find(k => /avg/i.test(k)) || ks.find(k => /cnvs/i.test(k)) || ks[0];
 }
 const pickKey = (row, re) => Object.keys(row).find(k => re.test(k));
 
