@@ -7,6 +7,8 @@ export const meta = { id: 'kamis', name: 'KAMIS 농축수산물 가격', kind: '
     note: '식품 원재료비 변동률 (쌀·콩·감자·축산물 등)' };
 
 const ENDPOINT = 'https://apis.data.go.kr/B552845/perDay/price';
+// 품목 코드가 있어야 결과가 나와요 (부류코드 → [품목코드, 이름]). config/mapping.json의 kamis.items로 바꿀 수 있어요
+const DEFAULT_ITEMS = { '100': [['111', '쌀'], ['141', '콩'], ['152', '감자']], '500': [['4301', '쇠고기'], ['4304', '돼지고기'], ['9901', '닭고기']] };
 
 // 응답(JSON 또는 XML)에서 행 목록 찾기
 function rowsOf(text) {
@@ -36,7 +38,7 @@ function rowsOf(text) {
 // 행에서 가격 칸 고르기: 이름에 prc/price가 들어간 숫자 칸 (평균가 우선)
 function priceKey(row) {
     const ks = Object.keys(row).filter(k => /prc|price|pric/i.test(k) && !/_cd$|unit|nm$/i.test(k) && num(row[k]) != null);
-    return ks.find(k => /avg/i.test(k)) || ks.find(k => /dd|day/i.test(k)) || ks[0];
+    return ks.find(k => /cnvs/i.test(k)) || ks.find(k => /avg/i.test(k)) || ks.find(k => /dd|day/i.test(k)) || ks[0];
 }
 const pickKey = (row, re) => Object.keys(row).find(k => re.test(k));
 
@@ -50,9 +52,9 @@ export async function run() {
     for (const m of months) {
         let to = `${m}-16`, from = `${m}-10`;
         if (to > yest) { to = yest; const f = new Date(Date.parse(yest) - 6 * 86400000).toISOString().slice(0, 10); from = f; }
-        for (const cat of Object.keys(cfg.categories)) {
+        for (const [cat, list] of Object.entries(cfg.items || DEFAULT_ITEMS)) for (const [itemCd] of list) {
             for (let page = 1; page <= 30; page++) {
-                const q = new URLSearchParams({ pageNo: page, numOfRows: 1000, 'cond[exmn_ymd::GTE]': from.replace(/-/g, ''), 'cond[exmn_ymd::LTE]': to.replace(/-/g, ''), 'cond[ctgry_cd::EQ]': cat, returnType: 'JSON' });
+                const q = new URLSearchParams({ pageNo: page, numOfRows: 1000, 'cond[exmn_ymd::GTE]': from.replace(/-/g, ''), 'cond[exmn_ymd::LTE]': to.replace(/-/g, ''), 'cond[ctgry_cd::EQ]': cat, 'cond[item_cd::EQ]': itemCd, returnType: 'JSON' });
                 const u = `${ENDPOINT}?serviceKey=${encodeURIComponent(key)}&${q.toString()}`;
                 try {
                     const { rows, total } = rowsOf(await fetchText(u)); calls++;
@@ -69,7 +71,7 @@ export async function run() {
                         ((raw[k] = raw[k] || { item, se, category: cfg.categories[cat], values: {} }).values[m] = raw[k].values[m] || []).push(price);
                     });
                     if (rows.length < 1000 || (total != null && page * 1000 >= total)) break;
-                } catch (e) { errors.push(`${m} ${cat}: ${e.message}`); if (errors.length >= 4 && !calls) throw e; break; }
+                } catch (e) { errors.push(`${m} ${cat}/${itemCd}: ${e.message}`); if (errors.length >= 4 && !calls) throw e; break; }
                 await sleep(120);
             }
         }
@@ -94,12 +96,9 @@ export async function run() {
         // 한 건도 없으면: 조건을 바꿔 가며 건수만 확인해 기록 (키는 지움)
         const base = { 'cond[exmn_ymd::GTE]': '20251204', 'cond[exmn_ymd::LTE]': '20251204' };
         const tries = {
-            포털예시: { ...base, 'cond[se_cd::EQ]': '02', 'cond[ctgry_cd::EQ]': '100', 'cond[item_cd::EQ]': '111', 'cond[vrty_cd::EQ]': '01', 'cond[grd_cd::EQ]': '04', 'cond[sgg_cd::EQ]': '1101', 'cond[mrkt_cd::EQ]': '0110253' },
-            품목만: { ...base, 'cond[se_cd::EQ]': '02', 'cond[ctgry_cd::EQ]': '100', 'cond[item_cd::EQ]': '111' },
-            구분01: { ...base, 'cond[se_cd::EQ]': '01', 'cond[ctgry_cd::EQ]': '100' },
-            구분02: { ...base, 'cond[se_cd::EQ]': '02', 'cond[ctgry_cd::EQ]': '100' },
-            조건없음: { ...base },
-            최근: { 'cond[exmn_ymd::GTE]': yest.replace(/-/g, ''), 'cond[exmn_ymd::LTE]': yest.replace(/-/g, '') },
+            예시날짜_쌀: { 'cond[exmn_ymd::GTE]': '20251204', 'cond[exmn_ymd::LTE]': '20251204', 'cond[ctgry_cd::EQ]': '100', 'cond[item_cd::EQ]': '111' },
+            최근7일_쌀: { 'cond[exmn_ymd::GTE]': new Date(Date.parse(yest) - 6 * 86400000).toISOString().slice(0, 10).replace(/-/g, ''), 'cond[exmn_ymd::LTE]': yest.replace(/-/g, ''), 'cond[ctgry_cd::EQ]': '100', 'cond[item_cd::EQ]': '111' },
+            올해_쌀: { 'cond[exmn_ymd::GTE]': '20260101', 'cond[exmn_ymd::LTE]': yest.replace(/-/g, ''), 'cond[ctgry_cd::EQ]': '100', 'cond[item_cd::EQ]': '111' },
         };
         const out = [];
         for (const [name, c] of Object.entries(tries)) {
