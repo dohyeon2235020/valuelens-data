@@ -2,7 +2,7 @@
  "app": "ValueLens",
  "kind": "data-manifest",
  "version": 1,
- "generatedAt": "2026-11-19T01:44:38.536Z",
+ "generatedAt": "2026-11-19T01:46:08.777Z",
  "folders": {
   "distribution/db": "유통 · DB",
   "distribution/api": "유통 · API",
@@ -32,7 +32,7 @@
    "file": "data/distribution/db/chamgagyeok-cost.json",
    "note": "실제 가격 하위 25% ÷ 적정 배수 상한",
    "status": "ok",
-   "updatedAt": "2026-11-19T01:44:38.536Z",
+   "updatedAt": "2026-11-19T01:46:08.777Z",
    "count": 60
   },
   {
@@ -47,7 +47,7 @@
    "message": "가격 자료가 없어요.",
    "count": 0,
    "updatedAt": null,
-   "checkedAt": "2026-11-19T01:44:38.536Z"
+   "checkedAt": "2026-11-19T01:46:08.777Z"
   },
   {
    "id": "customs",
