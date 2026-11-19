@@ -11,7 +11,7 @@
   {"category": "food", "keywords": ["쇠고기", "소고기", "육개장", "곰탕", "사골", "불고기"], "material": ["kamis:쇠고기|소고기|소", "customs:0201"]},
   {"category": "food", "keywords": ["돼지", "제육", "핫도그", "햄", "소시지"], "material": ["kamis:돼지고기|돼지", "customs:0203"]},
   {"category": "food", "keywords": ["닭", "치킨"], "material": ["kamis:닭고기|닭"]},
-  {"category": "food", "keywords": ["콩포트", "잼"], "material": ["ecos:food"]},
+  {"category": "food", "keywords": ["콩포트", "잼", "햄프씨드"], "material": ["ecos:food"]},
   {"category": "food", "keywords": ["두부", "콩", "된장"], "material": ["kamis:콩", "customs:1201"]},
   {"category": "food", "keywords": ["감자", "포카칩", "포테토칩"], "material": ["kamis:감자"]},
   {"category": "food", "keywords": ["새우"], "material": ["customs:0306"]},
