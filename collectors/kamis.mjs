@@ -66,7 +66,7 @@ export async function run() {
                         const se = String(r[pickKey(r, /^se_?nm$/i)] ?? r[pickKey(r, /^se_?cd$/i)] ?? '').trim();
                         const kind = r[pickKey(r, /vrty.*nm/i)] ?? r[pickKey(r, /vrty.*cd/i)] ?? '';
                         const grd = r[pickKey(r, /grd.*nm/i)] ?? r[pickKey(r, /grd.*cd/i)] ?? '';
-                        const unit = r[pickKey(r, /unit/i)] ?? '';
+                        const unit = `${r.unit_sz ?? ''}${r.unit ?? r[pickKey(r, /unit/i)] ?? ''}`;
                         const k = `${se}|${item}|${kind}|${grd}|${unit}`;
                         ((raw[k] = raw[k] || { item, se, category: cfg.categories[cat], values: {} }).values[m] = raw[k].values[m] || []).push(price);
                     });
@@ -114,5 +114,7 @@ export async function run() {
         throw new Error(`가격 자료가 없어요 (호출 ${calls}회, 행 ${Object.keys(raw).length}종${errors.length ? ', ' + errors[0] : ''}) · 시험: ${out.join(' | ')}`);
     }
     if (!Object.keys(series).length) throw new Error((errors[0] || '가격 자료가 없어요.') + (fields.length ? ` · 칸: ${fields.join(',')}` : ''));
-    return { status: 'ok', count: Object.keys(series).length, message: `품목 ${Object.keys(series).length}개 · ${months[0]}~${months[months.length - 1]}${errors.length ? ` · 오류 ${errors.length}건` : ''}`, data: { months, priceField: sample ? priceKey(sample) : null, fields, series } };
+    return { status: 'ok', count: Object.keys(series).length, message: `품목 ${Object.keys(series).length}개 · ${months[0]}~${months[months.length - 1]}${errors.length ? ` · 오류 ${errors.length}건` : ''}`, data: { months, priceField: sample ? priceKey(sample) : null, fields, series,
+        // 확인용: 구분|품목|품종|등급|단위별 월 중앙값
+        groups: Object.fromEntries(Object.entries(raw).map(([k, r]) => [k, months.map(m => r.values[m] ? Math.round(median(r.values[m])) : null)])) } };
 }
