@@ -11,7 +11,7 @@ export function writeJSON(rel, obj) {
     mkdirSync(dirname(p), { recursive: true });
     writeFileSync(p, JSON.stringify(obj, null, 1) + '\n');
 }
-export const products = () => readJSON('config/products.json').products;
+export const products = () => { const d = readJSON('config/products.json'), real = new Set(d.real || []); return d.rows.map(([code, name, category]) => ({ code, name, category, real: real.has(code) })); };
 export const mapping = () => readJSON('config/mapping.json');
 export const sleep = ms => new Promise(r => setTimeout(r, ms));
 export const env = k => (process.env[k] || '').trim();
