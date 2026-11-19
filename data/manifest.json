@@ -2,7 +2,7 @@
  "app": "ValueLens",
  "kind": "data-manifest",
  "version": 1,
- "generatedAt": "2026-11-19T01:26:37.895Z",
+ "generatedAt": "2026-11-19T01:34:29.434Z",
  "folders": {
   "distribution/db": "유통 · DB",
   "distribution/api": "유통 · API",
@@ -32,7 +32,7 @@
    "file": "data/distribution/db/chamgagyeok-cost.json",
    "note": "실제 가격 하위 25% ÷ 적정 배수 상한",
    "status": "ok",
-   "updatedAt": "2026-11-19T01:26:37.895Z",
+   "updatedAt": "2026-11-19T01:34:29.434Z",
    "count": 60
   },
   {
@@ -47,7 +47,7 @@
    "message": "KAMIS_CERT_KEY / KAMIS_CERT_ID가 없어 건너뛰었어요.",
    "count": 0,
    "updatedAt": null,
-   "checkedAt": "2026-11-19T01:26:37.895Z"
+   "checkedAt": "2026-11-19T01:34:29.434Z"
   },
   {
    "id": "customs",
@@ -55,13 +55,13 @@
    "kind": "distribution",
    "type": "api",
    "provider": "관세청 · data.go.kr 15101609",
-   "file": null,
+   "file": "data/distribution/api/customs.json",
    "note": "수입 원료·부품·완제품의 kg당 수입 단가 변동률",
-   "status": "skipped",
-   "message": "DATA_GO_KR_KEY가 없어 건너뛰었어요.",
-   "count": 0,
-   "updatedAt": null,
-   "checkedAt": "2026-11-19T01:26:37.895Z"
+   "status": "ok",
+   "message": "HS 코드 34개",
+   "count": 34,
+   "updatedAt": "2026-11-19T01:34:29.434Z",
+   "checkedAt": "2026-11-19T01:34:29.434Z"
   },
   {
    "id": "ecos",
@@ -75,7 +75,7 @@
    "message": "ECOS_KEY가 없어 건너뛰었어요.",
    "count": 0,
    "updatedAt": null,
-   "checkedAt": "2026-11-19T01:26:37.895Z"
+   "checkedAt": "2026-11-19T01:34:29.434Z"
   },
   {
    "id": "kosis",
@@ -89,7 +89,7 @@
    "message": "KOSIS_KEY가 없어 건너뛰었어요.",
    "count": 0,
    "updatedAt": null,
-   "checkedAt": "2026-11-19T01:26:37.895Z"
+   "checkedAt": "2026-11-19T01:34:29.434Z"
   }
  ]
 }
