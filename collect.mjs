@@ -8,9 +8,8 @@ import * as kamis from './collectors/kamis.mjs';
 import * as customs from './collectors/customs.mjs';
 import * as ecos from './collectors/ecos.mjs';
 import * as kosis from './collectors/kosis.mjs';
-import * as foodsafety from './collectors/foodsafety.mjs';
 
-const COLLECTORS = [naver, kamis, customs, ecos, kosis, foodsafety];
+const COLLECTORS = [naver, kamis, customs, ecos, kosis];
 // 저장소에 파일로 들어 있는 DB (수집기 없이 고정)
 const STATIC_DB = [
     { id: 'chamgagyeok_csv', name: '한국소비자원 참가격 CSV (2026-10-23)', kind: 'commerce', type: 'db', provider: '한국소비자원 · data.go.kr 15083256', file: 'data/commerce/db/chamgagyeok-csv.json', note: '오프라인 체인 10곳 실제 가격 · 상품 60개' },
