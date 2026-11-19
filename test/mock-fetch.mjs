@@ -22,8 +22,8 @@ globalThis.fetch = async (url) => {
         // 공공데이터포털 '일별 도,소매 가격정보' (칸 이름은 추정)
         const cat = u.searchParams.get('cond[ctgry_cd::EQ]'), day = u.searchParams.get('cond[exmn_ymd::LTE]');
         const k = months(7).indexOf(day.slice(0, 4) + '-' + day.slice(4, 6));
-        const names = { '100': ['쌀', '콩', '감자'], '500': ['쇠고기', '돼지고기', '닭고기'] }[cat] || [];
-        const item = names.flatMap(n => [['01', '소매'], ['02', '중도매']].map(([sc, sn]) => ({ exmn_ymd: day, se_cd: sc, se_nm: sn, ctgry_cd: cat, item_cd: '1', item_nm: n, vrty_nm: '일반', grd_nm: '상품', unit_nm: '1kg', exmn_dd_avg_prc: String(Math.round(5000 * (1 + (k - 6) * 0.01 * (rnd(n) - 0.3)))) })));
+        const names = [{ '111': '쌀', '141': '콩', '152': '감자', '4301': '쇠고기', '4304': '돼지고기', '9901': '닭고기' }[u.searchParams.get('cond[item_cd::EQ]')]].filter(Boolean);
+        const item = names.flatMap(n => [['01', '소매'], ['02', '중도매']].map(([sc, sn]) => ({ exmn_ymd: day, se_cd: sc, se_nm: sn, ctgry_cd: cat, item_cd: '1', item_nm: n, vrty_nm: '일반', grd_nm: '상품', unit_nm: '1kg', exmn_dd_prc: String(Math.round(5000 * (1 + (k - 6) * 0.01 * (rnd(n) - 0.3)))) })));
         return json({ response: { header: { resultCode: '0', resultMsg: '정상' }, body: { items: { item }, numOfRows: 1000, pageNo: 1, totalCount: item.length } } });
     }
     if (u.hostname === 'apis.data.go.kr') {
