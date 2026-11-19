@@ -10,7 +10,7 @@ ValueLens(밸류렌즈)가 읽는 **유통·커머스 데이터 수집 저장소
 | 폴더 | 분류 | 파일 | 출처 |
 |---|---|---|---|
 | `data/distribution/db/` | 유통 · DB | `chamgagyeok-cost.json` | 참가격 가격으로 역산한 추정 원가 (고정) |
-| `data/distribution/api/` | 유통 · API | `kamis.json` | KAMIS 농축수산물 소매가격 지수 |
+| `data/distribution/api/` | 유통 · API | `kamis.json` | KAMIS 농축수산물 소매가격 지수 (공공데이터포털 '일별 도,소매 가격정보') |
 | | | `customs.json` | 관세청 HS 코드별 수입 단가 지수 |
 | | | `ecos.json` | 한국은행 생산자물가지수 (카테고리별 · 운송) |
 | | | `kosis.json` | 통계청 월평균 임금 지수 |
@@ -25,8 +25,7 @@ ValueLens(밸류렌즈)가 읽는 **유통·커머스 데이터 수집 저장소
 
    | Secret 이름 | 어디서 |
    |---|---|
-   | `KAMIS_CERT_KEY`, `KAMIS_CERT_ID` | kamis.or.kr 회원가입 → Open-API 이용 신청 (CERT_ID는 신청한 아이디) |
-   | `DATA_GO_KR_KEY` | data.go.kr → '관세청_품목별 수출입실적(GW)'(15101609) 활용신청 → 일반 인증키(Decoding) |
+   | `DATA_GO_KR_KEY` | data.go.kr → '관세청_품목별 수출입실적(GW)'(15101609)과 '한국농수산식품유통공사_일별 도,소매 가격정보 조회' 활용신청 → 일반 인증키(Decoding). 키 하나로 관세청과 KAMIS를 모두 받아요 |
    | `ECOS_KEY` | ecos.bok.or.kr → Open API → 인증키 신청 |
    | `KOSIS_KEY` | kosis.kr/openapi → 인증키 신청 |
 
