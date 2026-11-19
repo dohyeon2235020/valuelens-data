@@ -41,6 +41,5 @@
   {"category": "fashion", "keywords": ["가방", "백", "파우치"], "material": ["customs:4202"]},
   {"category": "fashion", "keywords": ["양말"], "material": ["customs:6115"]}
  ],
- "defaults": {"material": {"food": ["ecos:food"], "life": ["ecos:life"], "digital": ["ecos:digital"], "fashion": ["ecos:fashion"], "beauty": ["ecos:beauty"]}, "labor": ["kosis:wage"], "logistics": ["ecos:logistics"]},
- "naver": {"malls": [["coupang", "쿠팡", "쿠팡"], ["naver", "네이버|스마트스토어", "네이버"], ["11st", "11번가", "11번가"], ["gmarket", "G마켓|지마켓|gmarket", "G마켓"], ["auction", "옥션", "옥션"], ["ssg", "SSG|신세계몰|이마트몰|ssg", "SSG.COM"], ["lotteon", "롯데ON|롯데온|롯데마트|롯데홈쇼핑|롯데아이몰", "롯데ON"], ["kurly", "컬리", "컬리"], ["homeplus", "홈플러스", "홈플러스"], ["wemakeprice", "위메프", "위메프"], ["tmon", "티몬", "티몬"], ["interpark", "인터파크", "인터파크"]], "etc": ["etc", "기타 쇼핑몰"]}
+ "defaults": {"material": {"food": ["ecos:food"], "life": ["ecos:life"], "digital": ["ecos:digital"], "fashion": ["ecos:fashion"], "beauty": ["ecos:beauty"]}, "labor": ["kosis:wage"], "logistics": ["ecos:logistics"]}
 }
