@@ -1,0 +1,551 @@
+{
+ "source": {
+  "id": "chamgagyeok_cost",
+  "name": "참가격 역산 추정 원가",
+  "kind": "distribution",
+  "type": "db",
+  "provider": "ValueLens 계산 (참가격 하위 25% 가격 ÷ 카테고리 적정 배수 상한)"
+ },
+ "products": [
+  {
+   "code": "CG-01-001",
+   "name": "비비고 육개장(500g)",
+   "category": "food",
+   "material": 2038,
+   "labor": 658,
+   "logistics": 544,
+   "total": 3240
+  },
+  {
+   "code": "CG-01-002",
+   "name": "보노 콘스프(3개입)",
+   "category": "food",
+   "material": 1164,
+   "labor": 376,
+   "logistics": 310,
+   "total": 1850
+  },
+  {
+   "code": "CG-01-003",
+   "name": "팔도 왕뚜껑(110g)",
+   "category": "food",
+   "material": 403,
+   "labor": 130,
+   "logistics": 107,
+   "total": 640
+  },
+  {
+   "code": "CG-01-004",
+   "name": "백설 중력 밀가루(1kg)",
+   "category": "food",
+   "material": 519,
+   "labor": 167,
+   "logistics": 139,
+   "total": 825
+  },
+  {
+   "code": "CG-01-005",
+   "name": "햇반 컵반 미역국밥(167g)",
+   "category": "food",
+   "material": 1255,
+   "labor": 405,
+   "logistics": 335,
+   "total": 1995
+  },
+  {
+   "code": "CG-01-006",
+   "name": "농심 새우깡(90g)",
+   "category": "food",
+   "material": 396,
+   "labor": 128,
+   "logistics": 106,
+   "total": 630
+  },
+  {
+   "code": "CG-01-007",
+   "name": "햇반(210g)",
+   "category": "food",
+   "material": 629,
+   "labor": 203,
+   "logistics": 168,
+   "total": 1000
+  },
+  {
+   "code": "CG-01-008",
+   "name": "농심 신라면 큰사발면(114g)",
+   "category": "food",
+   "material": 418,
+   "labor": 135,
+   "logistics": 112,
+   "total": 665
+  },
+  {
+   "code": "CG-01-009",
+   "name": "오뚜기 참깨라면 컵(110g)",
+   "category": "food",
+   "material": 487,
+   "labor": 157,
+   "logistics": 131,
+   "total": 775
+  },
+  {
+   "code": "CG-01-010",
+   "name": "옛날국수 소면(900g)",
+   "category": "food",
+   "material": 1094,
+   "labor": 353,
+   "logistics": 293,
+   "total": 1740
+  },
+  {
+   "code": "CG-01-011",
+   "name": "오리온 통아몬드 캔디(90g)",
+   "category": "food",
+   "material": 497,
+   "labor": 160,
+   "logistics": 133,
+   "total": 790
+  },
+  {
+   "code": "CG-01-012",
+   "name": "비비고 소고기미역국(500g)",
+   "category": "food",
+   "material": 2038,
+   "labor": 658,
+   "logistics": 544,
+   "total": 3240
+  },
+  {
+   "code": "CG-01-013",
+   "name": "오리온 포카칩 오리지널(66g)",
+   "category": "food",
+   "material": 456,
+   "labor": 147,
+   "logistics": 122,
+   "total": 725
+  },
+  {
+   "code": "CG-01-014",
+   "name": "오뚜기 크림스프(80g)",
+   "category": "food",
+   "material": 623,
+   "labor": 201,
+   "logistics": 166,
+   "total": 990
+  },
+  {
+   "code": "CG-01-015",
+   "name": "보노 포르치니버섯스프(3개입)",
+   "category": "food",
+   "material": 1164,
+   "labor": 376,
+   "logistics": 310,
+   "total": 1850
+  },
+  {
+   "code": "CG-01-016",
+   "name": "백설 파스타(500g)",
+   "category": "food",
+   "material": 774,
+   "labor": 250,
+   "logistics": 206,
+   "total": 1230
+  },
+  {
+   "code": "CG-01-017",
+   "name": "풀무원 새콤달콤 유부초밥(330g)",
+   "category": "food",
+   "material": 1566,
+   "labor": 505,
+   "logistics": 419,
+   "total": 2490
+  },
+  {
+   "code": "CG-01-018",
+   "name": "3분 쇠고기짜장(200g)",
+   "category": "food",
+   "material": 686,
+   "labor": 221,
+   "logistics": 183,
+   "total": 1090
+  },
+  {
+   "code": "CG-01-019",
+   "name": "안성탕면(5개입)",
+   "category": "food",
+   "material": 1179,
+   "labor": 381,
+   "logistics": 315,
+   "total": 1875
+  },
+  {
+   "code": "CG-01-020",
+   "name": "오뚜기밥(210g)",
+   "category": "food",
+   "material": 550,
+   "labor": 178,
+   "logistics": 147,
+   "total": 875
+  },
+  {
+   "code": "CG-01-021",
+   "name": "해태 부라보콘 바닐라(160ml)",
+   "category": "food",
+   "material": 440,
+   "labor": 142,
+   "logistics": 118,
+   "total": 700
+  },
+  {
+   "code": "CG-01-022",
+   "name": "동원 양반 쇠고기죽(287.5g)",
+   "category": "food",
+   "material": 1566,
+   "labor": 505,
+   "logistics": 419,
+   "total": 2490
+  },
+  {
+   "code": "CG-01-023",
+   "name": "동원 양반 전복죽(287.5g)",
+   "category": "food",
+   "material": 1252,
+   "labor": 404,
+   "logistics": 334,
+   "total": 1990
+  },
+  {
+   "code": "CG-01-024",
+   "name": "3분 쇠고기카레(200g)",
+   "category": "food",
+   "material": 686,
+   "labor": 221,
+   "logistics": 183,
+   "total": 1090
+  },
+  {
+   "code": "CG-01-025",
+   "name": "오뚜기카레 순한맛(100g)",
+   "category": "food",
+   "material": 937,
+   "labor": 302,
+   "logistics": 251,
+   "total": 1490
+  },
+  {
+   "code": "CG-01-026",
+   "name": "풀무원 함흥 비빔냉면(2인)",
+   "category": "food",
+   "material": 2352,
+   "labor": 759,
+   "logistics": 629,
+   "total": 3740
+  },
+  {
+   "code": "CG-01-027",
+   "name": "하리보 골드베렌 젤리(250g)",
+   "category": "food",
+   "material": 2195,
+   "labor": 708,
+   "logistics": 587,
+   "total": 3490
+  },
+  {
+   "code": "CG-01-028",
+   "name": "행복한콩 찌개두부(300g)",
+   "category": "food",
+   "material": 497,
+   "labor": 160,
+   "logistics": 133,
+   "total": 790
+  },
+  {
+   "code": "CG-01-029",
+   "name": "폰타나 이탈리아 캄파니아 스파게티(500g)",
+   "category": "food",
+   "material": 786,
+   "labor": 254,
+   "logistics": 210,
+   "total": 1250
+  },
+  {
+   "code": "CG-01-030",
+   "name": "청정원 스파게티(500g)",
+   "category": "food",
+   "material": 868,
+   "labor": 280,
+   "logistics": 232,
+   "total": 1380
+  },
+  {
+   "code": "CG-06-001",
+   "name": "크린랩(22cm x 50m)",
+   "category": "life",
+   "material": 1393,
+   "labor": 683,
+   "logistics": 582,
+   "total": 2658
+  },
+  {
+   "code": "CG-06-002",
+   "name": "듀라셀 울트라 알카라인 건전지 AAA(4개입)",
+   "category": "life",
+   "material": 1485,
+   "labor": 728,
+   "logistics": 620,
+   "total": 2833
+  },
+  {
+   "code": "CG-06-003",
+   "name": "지퍼락 그립앤실 지퍼백 냉장 중형(20매)",
+   "category": "life",
+   "material": 917,
+   "labor": 450,
+   "logistics": 383,
+   "total": 1750
+  },
+  {
+   "code": "CG-06-004",
+   "name": "홈스타 락스와세제 후로랄파인(750ml)",
+   "category": "life",
+   "material": 710,
+   "labor": 348,
+   "logistics": 296,
+   "total": 1354
+  },
+  {
+   "code": "CG-06-005",
+   "name": "크린지퍼백(18cm x 20cm)",
+   "category": "life",
+   "material": 803,
+   "labor": 394,
+   "logistics": 336,
+   "total": 1533
+  },
+  {
+   "code": "CG-06-006",
+   "name": "테크 실내건조 액체세제(2.7L)",
+   "category": "life",
+   "material": 2162,
+   "labor": 1060,
+   "logistics": 903,
+   "total": 4125
+  },
+  {
+   "code": "CG-06-007",
+   "name": "크리넥스 수앤수 라이언 물티슈 캡형(80매)",
+   "category": "life",
+   "material": 415,
+   "labor": 203,
+   "logistics": 174,
+   "total": 792
+  },
+  {
+   "code": "CG-06-008",
+   "name": "피죤 섬유유연제 핑크로즈(2.1L)",
+   "category": "life",
+   "material": 982,
+   "labor": 482,
+   "logistics": 411,
+   "total": 1875
+  },
+  {
+   "code": "CG-06-009",
+   "name": "크리넥스 마이비데 카카오 물티슈(40매)",
+   "category": "life",
+   "material": 480,
+   "labor": 236,
+   "logistics": 201,
+   "total": 917
+  },
+  {
+   "code": "CG-05-001",
+   "name": "리엔 흑모비책크림염색 자연갈색(120g)",
+   "category": "beauty",
+   "material": 609,
+   "labor": 814,
+   "logistics": 452,
+   "total": 1875
+  },
+  {
+   "code": "CG-05-002",
+   "name": "니베아 립 모이스춰 케어(4.8g)",
+   "category": "beauty",
+   "material": 358,
+   "labor": 477,
+   "logistics": 265,
+   "total": 1100
+  },
+  {
+   "code": "CG-05-003",
+   "name": "엘라스틴 아르간오일 데미지 트리트먼트(300ml)",
+   "category": "beauty",
+   "material": 565,
+   "labor": 754,
+   "logistics": 419,
+   "total": 1738
+  },
+  {
+   "code": "CG-05-004",
+   "name": "미쟝센 퍼펙트 오리지널 세럼 샴푸(680ml)",
+   "category": "beauty",
+   "material": 723,
+   "labor": 966,
+   "logistics": 536,
+   "total": 2225
+  },
+  {
+   "code": "CG-05-005",
+   "name": "해피바스 오리지널컬렉션 솝 라벤더 비누(4개)",
+   "category": "beauty",
+   "material": 552,
+   "labor": 738,
+   "logistics": 410,
+   "total": 1700
+  },
+  {
+   "code": "CG-05-006",
+   "name": "도브 뷰티 너리싱 바디워시(1L)",
+   "category": "beauty",
+   "material": 1211,
+   "labor": 1617,
+   "logistics": 897,
+   "total": 3725
+  },
+  {
+   "code": "CG-05-007",
+   "name": "메디안 치석 치약 오리지널(3개)",
+   "category": "beauty",
+   "material": 524,
+   "labor": 700,
+   "logistics": 388,
+   "total": 1612
+  },
+  {
+   "code": "CG-05-008",
+   "name": "도브 센스티브 스킨 바디워시(1L)",
+   "category": "beauty",
+   "material": 1211,
+   "labor": 1617,
+   "logistics": 897,
+   "total": 3725
+  },
+  {
+   "code": "CG-05-009",
+   "name": "페리오 토탈7 칫솔 힘있는 미세모(4개)",
+   "category": "beauty",
+   "material": 877,
+   "labor": 1171,
+   "logistics": 650,
+   "total": 2698
+  },
+  {
+   "code": "CG-05-010",
+   "name": "바세린 립테라피 스틱 오리지널(4.8g)",
+   "category": "beauty",
+   "material": 479,
+   "labor": 640,
+   "logistics": 356,
+   "total": 1475
+  },
+  {
+   "code": "CG-05-011",
+   "name": "쉬크 하이드로5 프리미엄 면도날(4개)",
+   "category": "beauty",
+   "material": 1779,
+   "labor": 2376,
+   "logistics": 1320,
+   "total": 5475
+  },
+  {
+   "code": "CG-05-012",
+   "name": "팬틴 극손상케어 트리트먼트(220ml)",
+   "category": "beauty",
+   "material": 561,
+   "labor": 749,
+   "logistics": 415,
+   "total": 1725
+  },
+  {
+   "code": "CG-05-013",
+   "name": "오가니스트 히말라야 핑크솔트 바디워시 리프레싱 민트향(900g)",
+   "category": "beauty",
+   "material": 646,
+   "labor": 863,
+   "logistics": 479,
+   "total": 1988
+  },
+  {
+   "code": "CG-05-014",
+   "name": "려 함빛 극손상앤영양 샴푸(480ml)",
+   "category": "beauty",
+   "material": 768,
+   "labor": 1025,
+   "logistics": 569,
+   "total": 2362
+  },
+  {
+   "code": "CG-05-015",
+   "name": "온더바디 잉글리쉬 아이리스 바디워시(900g)",
+   "category": "beauty",
+   "material": 561,
+   "labor": 749,
+   "logistics": 415,
+   "total": 1725
+  },
+  {
+   "code": "CG-06-010",
+   "name": "유한락스 후레쉬(2L)",
+   "category": "life",
+   "material": 1533,
+   "labor": 752,
+   "logistics": 640,
+   "total": 2925
+  },
+  {
+   "code": "CG-06-011",
+   "name": "깨끗한나라 물티슈 캡형(70매*6개입)",
+   "category": "life",
+   "material": 1910,
+   "labor": 937,
+   "logistics": 799,
+   "total": 3646
+  },
+  {
+   "code": "CG-06-012",
+   "name": "3M 스카치브라이트 물걸레청소포 대형(20매)",
+   "category": "life",
+   "material": 3821,
+   "labor": 1874,
+   "logistics": 1597,
+   "total": 7292
+  },
+  {
+   "code": "CG-06-013",
+   "name": "크리넥스 안심물티슈 캡형(60매)",
+   "category": "life",
+   "material": 666,
+   "labor": 327,
+   "logistics": 278,
+   "total": 1271
+  },
+  {
+   "code": "CG-06-014",
+   "name": "크리넥스 KF-AD 라이트핏 쿨마스크 대형(15매)",
+   "category": "life",
+   "material": 1943,
+   "labor": 953,
+   "logistics": 812,
+   "total": 3708
+  },
+  {
+   "code": "CG-06-015",
+   "name": "코디 키친타월(6롤)",
+   "category": "life",
+   "material": 1310,
+   "labor": 642,
+   "logistics": 548,
+   "total": 2500
+  }
+ ]
+}

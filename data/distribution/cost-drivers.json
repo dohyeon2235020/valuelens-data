@@ -1,0 +1,735 @@
+{
+ "note": "상품별 원가 변동 지표 후보. 앞에서부터 켜져 있고 값이 있는 소스를 써요.",
+ "products": {
+  "CG-01-001": {
+   "material": [
+    "kamis:쇠고기|소고기",
+    "customs:0201",
+    "ecos:food"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-01-002": {
+   "material": [
+    "customs:1001",
+    "ecos:food"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-01-003": {
+   "material": [
+    "customs:1001",
+    "ecos:food"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-01-004": {
+   "material": [
+    "customs:1001",
+    "ecos:food"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-01-005": {
+   "material": [
+    "kamis:쌀",
+    "customs:1006",
+    "ecos:food"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-01-006": {
+   "material": [
+    "customs:0306",
+    "ecos:food"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-01-007": {
+   "material": [
+    "kamis:쌀",
+    "customs:1006",
+    "ecos:food"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-01-008": {
+   "material": [
+    "customs:1001",
+    "ecos:food"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-01-009": {
+   "material": [
+    "customs:1001",
+    "ecos:food"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-01-010": {
+   "material": [
+    "customs:1001",
+    "ecos:food"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-01-011": {
+   "material": [
+    "customs:1701",
+    "ecos:food"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-01-012": {
+   "material": [
+    "kamis:쇠고기|소고기",
+    "customs:0201",
+    "ecos:food"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-01-013": {
+   "material": [
+    "kamis:감자",
+    "ecos:food"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-01-014": {
+   "material": [
+    "customs:1001",
+    "ecos:food"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-01-015": {
+   "material": [
+    "customs:1001",
+    "ecos:food"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-01-016": {
+   "material": [
+    "customs:1001",
+    "ecos:food"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-01-017": {
+   "material": [
+    "kamis:쌀",
+    "customs:1006",
+    "ecos:food"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-01-018": {
+   "material": [
+    "kamis:쇠고기|소고기",
+    "customs:0201",
+    "ecos:food"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-01-019": {
+   "material": [
+    "customs:1001",
+    "ecos:food"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-01-020": {
+   "material": [
+    "kamis:쌀",
+    "customs:1006",
+    "ecos:food"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-01-021": {
+   "material": [
+    "customs:1701",
+    "ecos:food"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-01-022": {
+   "material": [
+    "kamis:쌀",
+    "customs:1006",
+    "ecos:food"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-01-023": {
+   "material": [
+    "kamis:쌀",
+    "customs:1006",
+    "ecos:food"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-01-024": {
+   "material": [
+    "kamis:쇠고기|소고기",
+    "customs:0201",
+    "ecos:food"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-01-025": {
+   "material": [
+    "ecos:food"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-01-026": {
+   "material": [
+    "customs:1001",
+    "ecos:food"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-01-027": {
+   "material": [
+    "customs:1701",
+    "ecos:food"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-01-028": {
+   "material": [
+    "kamis:콩",
+    "customs:1201",
+    "ecos:food"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-01-029": {
+   "material": [
+    "customs:1001",
+    "ecos:food"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-01-030": {
+   "material": [
+    "customs:1001",
+    "ecos:food"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-06-001": {
+   "material": [
+    "customs:3920",
+    "ecos:life"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-06-002": {
+   "material": [
+    "customs:8506",
+    "ecos:life"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-06-003": {
+   "material": [
+    "customs:3920",
+    "ecos:life"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-06-004": {
+   "material": [
+    "customs:3402",
+    "ecos:life"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-06-005": {
+   "material": [
+    "customs:3920",
+    "ecos:life"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-06-006": {
+   "material": [
+    "customs:3402",
+    "ecos:life"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-06-007": {
+   "material": [
+    "customs:4818",
+    "ecos:life"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-06-008": {
+   "material": [
+    "customs:3402",
+    "ecos:life"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-06-009": {
+   "material": [
+    "customs:4818",
+    "ecos:life"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-06-010": {
+   "material": [
+    "customs:3402",
+    "ecos:life"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-06-011": {
+   "material": [
+    "customs:4818",
+    "ecos:life"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-06-012": {
+   "material": [
+    "customs:5603",
+    "ecos:life"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-06-013": {
+   "material": [
+    "customs:4818",
+    "ecos:life"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-06-014": {
+   "material": [
+    "customs:5603",
+    "ecos:life"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-06-015": {
+   "material": [
+    "customs:4818",
+    "ecos:life"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-05-001": {
+   "material": [
+    "customs:3305",
+    "ecos:beauty"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-05-002": {
+   "material": [
+    "customs:3304",
+    "ecos:beauty"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-05-003": {
+   "material": [
+    "customs:3305",
+    "ecos:beauty"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-05-004": {
+   "material": [
+    "customs:3305",
+    "ecos:beauty"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-05-005": {
+   "material": [
+    "customs:3401",
+    "ecos:beauty"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-05-006": {
+   "material": [
+    "customs:3304",
+    "ecos:beauty"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-05-007": {
+   "material": [
+    "customs:3306",
+    "ecos:beauty"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-05-008": {
+   "material": [
+    "customs:3304",
+    "ecos:beauty"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-05-009": {
+   "material": [
+    "customs:9603",
+    "ecos:beauty"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-05-010": {
+   "material": [
+    "customs:3304",
+    "ecos:beauty"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-05-011": {
+   "material": [
+    "customs:8212",
+    "ecos:beauty"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-05-012": {
+   "material": [
+    "customs:3305",
+    "ecos:beauty"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-05-013": {
+   "material": [
+    "customs:3304",
+    "ecos:beauty"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-05-014": {
+   "material": [
+    "customs:3305",
+    "ecos:beauty"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  },
+  "CG-05-015": {
+   "material": [
+    "customs:3304",
+    "ecos:beauty"
+   ],
+   "labor": [
+    "kosis:wage"
+   ],
+   "logistics": [
+    "ecos:logistics"
+   ]
+  }
+ }
+}

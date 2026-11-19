@@ -1,0 +1,123 @@
+{
+ "app": "ValueLens",
+ "kind": "data-manifest",
+ "version": 1,
+ "generatedAt": "2026-11-19T01:06:22.711Z",
+ "folders": {
+  "distribution/db": "유통 · DB",
+  "distribution/api": "유통 · API",
+  "commerce/db": "커머스 · DB",
+  "commerce/api": "커머스 · API"
+ },
+ "costDrivers": "data/distribution/cost-drivers.json",
+ "sources": [
+  {
+   "id": "chamgagyeok_csv",
+   "name": "한국소비자원 참가격 CSV (2026-10-23)",
+   "kind": "commerce",
+   "type": "db",
+   "provider": "한국소비자원 · data.go.kr 15083256",
+   "file": "data/commerce/db/chamgagyeok-csv.json",
+   "note": "오프라인 체인 10곳 실제 가격 · 상품 60개",
+   "status": "ok",
+   "updatedAt": "2026-11-03T00:00:00Z",
+   "count": 60
+  },
+  {
+   "id": "chamgagyeok_cost",
+   "name": "참가격 역산 추정 원가",
+   "kind": "distribution",
+   "type": "db",
+   "provider": "ValueLens 계산",
+   "file": "data/distribution/db/chamgagyeok-cost.json",
+   "note": "실제 가격 하위 25% ÷ 적정 배수 상한",
+   "status": "ok",
+   "updatedAt": "2026-11-19T01:06:22.711Z",
+   "count": 60
+  },
+  {
+   "id": "naver_shop",
+   "name": "네이버 쇼핑 검색 API",
+   "kind": "commerce",
+   "type": "api",
+   "provider": "네이버 (developers.naver.com)",
+   "file": null,
+   "note": "쇼핑몰별 최저가·상품 링크·대표 이미지. 이미지 저작권은 각 판매처에 있어요.",
+   "status": "skipped",
+   "message": "NAVER_CLIENT_ID / NAVER_CLIENT_SECRET이 없어 건너뛰었어요.",
+   "count": 0,
+   "updatedAt": null,
+   "checkedAt": "2026-11-19T01:06:22.711Z"
+  },
+  {
+   "id": "kamis",
+   "name": "KAMIS 농축수산물 소매가격",
+   "kind": "distribution",
+   "type": "api",
+   "provider": "한국농수산식품유통공사 (kamis.or.kr)",
+   "file": null,
+   "note": "식품 원재료비 변동률 (쌀·콩·감자·축산물 등)",
+   "status": "skipped",
+   "message": "KAMIS_CERT_KEY / KAMIS_CERT_ID가 없어 건너뛰었어요.",
+   "count": 0,
+   "updatedAt": null,
+   "checkedAt": "2026-11-19T01:06:22.711Z"
+  },
+  {
+   "id": "customs",
+   "name": "관세청 품목별 수입 단가",
+   "kind": "distribution",
+   "type": "api",
+   "provider": "관세청 · data.go.kr 15101609",
+   "file": null,
+   "note": "수입 원료·부품·완제품의 kg당 수입 단가 변동률",
+   "status": "skipped",
+   "message": "DATA_GO_KR_KEY가 없어 건너뛰었어요.",
+   "count": 0,
+   "updatedAt": null,
+   "checkedAt": "2026-11-19T01:06:22.711Z"
+  },
+  {
+   "id": "ecos",
+   "name": "한국은행 생산자물가지수",
+   "kind": "distribution",
+   "type": "api",
+   "provider": "한국은행 ECOS (ecos.bok.or.kr)",
+   "file": null,
+   "note": "카테고리별 생산자물가(원재료비 기본값) · 운송 서비스 물가(포장·물류비)",
+   "status": "skipped",
+   "message": "ECOS_KEY가 없어 건너뛰었어요.",
+   "count": 0,
+   "updatedAt": null,
+   "checkedAt": "2026-11-19T01:06:22.711Z"
+  },
+  {
+   "id": "kosis",
+   "name": "통계청 제조업 월평균 임금",
+   "kind": "distribution",
+   "type": "api",
+   "provider": "통계청 KOSIS · 고용노동부 사업체노동력조사",
+   "file": null,
+   "note": "공임·노임 변동률 (제조업 월 임금총액)",
+   "status": "skipped",
+   "message": "KOSIS_KEY가 없어 건너뛰었어요.",
+   "count": 0,
+   "updatedAt": null,
+   "checkedAt": "2026-11-19T01:06:22.711Z"
+  },
+  {
+   "id": "foodsafety",
+   "name": "식약처 바코드 연계 제품정보",
+   "kind": "distribution",
+   "type": "api",
+   "provider": "식품의약품안전처 식품안전나라 (C005)",
+   "file": null,
+   "note": "제조사·바코드·식품 유형 (보조 정보, 원가 계산에는 쓰지 않음)",
+   "status": "skipped",
+   "message": "FOODSAFETY_KEY가 없어 건너뛰었어요.",
+   "count": 0,
+   "updatedAt": null,
+   "checkedAt": "2026-11-19T01:06:22.711Z"
+  }
+ ]
+}
