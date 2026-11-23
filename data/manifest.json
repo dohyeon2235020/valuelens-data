@@ -2,7 +2,7 @@
  "app": "ValueLens",
  "kind": "data-manifest",
  "version": 1,
- "generatedAt": "2026-11-22T19:57:47.336Z",
+ "generatedAt": "2026-11-23T20:13:27.512Z",
  "folders": {
   "distribution/db": "유통 · DB",
   "distribution/api": "유통 · API",
@@ -32,7 +32,7 @@
    "file": "data/distribution/db/chamgagyeok-cost.json",
    "note": "실제 가격 하위 25% ÷ 적정 배수 상한",
    "status": "ok",
-   "updatedAt": "2026-11-22T19:57:47.336Z",
+   "updatedAt": "2026-11-23T20:13:27.512Z",
    "count": 60
   },
   {
@@ -46,8 +46,8 @@
    "status": "ok",
    "message": "품목 6개 · 2026-05~2026-11",
    "count": 6,
-   "updatedAt": "2026-11-22T19:57:47.336Z",
-   "checkedAt": "2026-11-22T19:57:47.336Z"
+   "updatedAt": "2026-11-23T20:13:27.512Z",
+   "checkedAt": "2026-11-23T20:13:27.512Z"
   },
   {
    "id": "customs",
@@ -60,8 +60,8 @@
    "status": "ok",
    "message": "HS 코드 34개",
    "count": 34,
-   "updatedAt": "2026-11-22T19:57:47.336Z",
-   "checkedAt": "2026-11-22T19:57:47.336Z"
+   "updatedAt": "2026-11-23T20:13:27.512Z",
+   "checkedAt": "2026-11-23T20:13:27.512Z"
   },
   {
    "id": "ecos",
@@ -74,8 +74,8 @@
    "status": "ok",
    "message": "지수 6개",
    "count": 6,
-   "updatedAt": "2026-11-22T19:57:47.336Z",
-   "checkedAt": "2026-11-22T19:57:47.336Z"
+   "updatedAt": "2026-11-23T20:13:27.512Z",
+   "checkedAt": "2026-11-23T20:13:27.512Z"
   },
   {
    "id": "kosis",
@@ -88,8 +88,8 @@
    "status": "ok",
    "message": "2026-02~2026-08 임금 7개월 (항목 상용정액급여, 산업분류 C.제조업(10~34), 규모별 전규모(1인이상))",
    "count": 7,
-   "updatedAt": "2026-11-22T19:57:47.336Z",
-   "checkedAt": "2026-11-22T19:57:47.336Z"
+   "updatedAt": "2026-11-23T20:13:27.512Z",
+   "checkedAt": "2026-11-23T20:13:27.512Z"
   }
  ]
 }
