@@ -5,13 +5,15 @@
    "item": "립케어",
    "cat": "beauty",
    "kw": ["립밤", "립케어", "립테라피", "립 모이스", "립모이스", "바세린 립", "립스틱", "틴트", "니베아립", "뉴트로지나립", "립에센셜"],
-   "commons": "lip balm"
+   "commons": "lip balm",
+   "file": "Various colorful lip balm sticks (40821280864).jpg"
   },
   {
    "item": "유부초밥·김밥재료",
    "cat": "food",
    "kw": ["유부초밥", "김밥", "초밥"],
-   "commons": "inarizushi"
+   "commons": "inarizushi",
+   "file": "Kantofu Inarizushi.jpg"
   },
   {
    "item": "수프",
@@ -29,7 +31,8 @@
    "item": "즉석국·탕",
    "cat": "food",
    "kw": ["육개장", "곰탕", "미역국", "설렁탕", "갈비탕", "사골", "된장찌개", "김치찌개", "부대찌개", "추어탕"],
-   "commons": "Korean soup gukbap"
+   "commons": "Korean soup gukbap",
+   "file": "Korean soup-Yukgaejang-01.jpg"
   },
   {
    "item": "죽",
@@ -53,13 +56,15 @@
    "item": "국수·면",
    "cat": "food",
    "kw": ["국수", "소면", "중면", "칼국수", "냉면", "당면", "우동", "쌀국수", "메밀"],
-   "commons": "dried noodles somen"
+   "commons": "dried noodles somen",
+   "file": "Somen 001.jpg"
   },
   {
    "item": "파스타",
    "cat": "food",
    "kw": ["스파게티", "파스타", "마카로니"],
-   "commons": "dried spaghetti pasta"
+   "commons": "dried spaghetti pasta",
+   "file": "Spaghetti spiral, 2008.jpg"
   },
   {
    "item": "과일통조림",
@@ -119,7 +124,8 @@
    "item": "초콜릿",
    "cat": "food",
    "kw": ["초콜릿", "초콜렛", "가나", "드림카카오", "킨더", "투유", "자유시간", "ABC초코", "m&m", "허쉬", "핫브레이크"],
-   "commons": "chocolate bar"
+   "commons": "chocolate bar",
+   "file": "2023 Gorzka czekolada.jpg"
   },
   {
    "item": "사탕·젤리·껌",
@@ -131,13 +137,15 @@
    "item": "아이스크림",
    "cat": "food",
    "kw": ["아이스크림", "투게더", "메로나", "월드콘", "부라보콘", "구구콘", "비비빅", "바밤바", "돼지바", "붕어싸만코", "빵빠레", "누가바", "설레임", "빠삐코", "옥동자", "더위사냥", "스크류바", "죠스바", "수박바", "엑설런트", "나뚜루", "하겐다즈", "배스킨"],
-   "commons": "ice cream"
+   "commons": "ice cream",
+   "file": "Ice cream in cones.jpg"
   },
   {
    "item": "식빵·빵",
    "cat": "food",
    "kw": ["식빵", "빵(", "모닝빵", "단팥빵", "카스텔라", "베이글", "모닝롤", "보름달", "만쥬", "버터롤", "우유식빵"],
-   "commons": "white bread loaf"
+   "commons": "white bread loaf",
+   "file": "White bread 800.jpg"
   },
   {
    "item": "견과·건과",
@@ -155,7 +163,8 @@
    "item": "버터·마가린",
    "cat": "food",
    "kw": ["버터", "마가린"],
-   "commons": "butter"
+   "commons": "butter",
+   "file": "Block of butter in butter dish.jpg"
   },
   {
    "item": "분유·이유식",
@@ -179,7 +188,8 @@
    "item": "우유",
    "cat": "food",
    "kw": ["우유"],
-   "commons": "milk carton"
+   "commons": "milk carton",
+   "file": "Plastic bottle of milk.jpg"
   },
   {
    "item": "발효유",
@@ -197,7 +207,8 @@
    "item": "시리얼",
    "cat": "food",
    "kw": ["시리얼", "콘푸로스트", "콘프레이크", "그래놀라", "첵스", "후레이크", "오트밀", "에너지바", "콘푸라이트", "스페셜K"],
-   "commons": "breakfast cereal bowl"
+   "commons": "breakfast cereal bowl",
+   "file": "Corn flakes.jpg"
   },
   {
    "item": "커피믹스",
@@ -227,7 +238,8 @@
    "item": "생수",
    "cat": "food",
    "kw": ["생수", "삼다수", "아이시스", "백산수", "에비앙", "석수", "평창수", "워터"],
-   "commons": "bottled water"
+   "commons": "bottled water",
+   "file": "Полка с питьевой водой в магазине.jpg"
   },
   {
    "item": "주스",
@@ -239,7 +251,8 @@
    "item": "이온·기능음료",
    "cat": "food",
    "kw": ["포카리", "게토레이", "파워에이드", "비타500", "박카스", "옥수수수염차", "헛개", "17차", "몸에좋은", "식혜", "두유", "베지밀", "매일두유", "검은콩", "프로틴", "하이뮨", "더단백", "뉴케어", "오로나민", "여명", "비타파워", "깨수깡"],
-   "commons": "sports drink bottle"
+   "commons": "sports drink bottle",
+   "file": "TEHO bottles at Länsiväyläjuoksu 2024.jpg"
   },
   {
    "item": "맥주",
@@ -263,13 +276,15 @@
    "item": "식용유",
    "cat": "food",
    "kw": ["식용유", "콩기름", "카놀라유", "포도씨유", "올리브유", "해바라기유", "옥수수유", "튀김유"],
-   "commons": "cooking oil bottle"
+   "commons": "cooking oil bottle",
+   "file": "Bottle 1 liter Sunflower refined oil.jpg"
   },
   {
    "item": "김",
    "cat": "food",
    "kw": ["김(", "도시락김", "재래김", "조미김", "김밥김", "파래김", "곱창김", "맛김", "들기름김", "올리브김"],
-   "commons": "gim seaweed sheets"
+   "commons": "gim seaweed sheets",
+   "file": "Korean laver-Gim-01.jpg"
   },
   {
    "item": "참기름·들기름",
@@ -281,7 +296,8 @@
    "item": "설탕",
    "cat": "food",
    "kw": ["설탕", "백설탕", "흑설탕", "올리고당", "물엿", "자일로스"],
-   "commons": "white sugar"
+   "commons": "white sugar",
+   "file": "Sugar on a blue plate (close up).jpg"
   },
   {
    "item": "소금",
@@ -371,7 +387,8 @@
    "item": "쇠고기",
    "cat": "food",
    "kw": ["쇠고기", "소고기", "한우", "등심", "양지", "불고기용", "국거리"],
-   "commons": "raw beef"
+   "commons": "raw beef",
+   "file": "Raw beef steak, 2011.jpg"
   },
   {
    "item": "닭고기",
@@ -395,13 +412,15 @@
    "item": "채소",
    "cat": "food",
    "kw": ["양파", "대파", "배추", "무(", "감자", "고구마", "당근", "오이", "애호박", "호박", "마늘", "상추", "깻잎", "시금치", "양배추", "버섯", "고추", "파프리카", "브로콜리", "쪽파"],
-   "commons": "fresh vegetables"
+   "commons": "fresh vegetables",
+   "file": "Vegetable Stall, Brigg Market - geograph.org.uk - 1725905.jpg"
   },
   {
    "item": "기저귀",
    "cat": "life",
    "kw": ["기저귀", "하기스", "마미포코", "보솜이", "페넬로페", "팸퍼스", "토디앙", "디펜드", "언더웨어", "라이프리", "안심패드", "키퍼스"],
-   "commons": "disposable diapers"
+   "commons": "disposable diapers",
+   "file": "Couche culotte Couche-culotte Jetable Diaper Nappy Disposable Windel Einweg Pañal Desechables bébé baby bebé 03.jpg"
   },
   {
    "item": "방향·탈취·살충",
@@ -419,19 +438,22 @@
    "item": "세탁세제",
    "cat": "life",
    "kw": ["세탁세제", "세탁", "퍼실", "테크", "비트", "스파크", "리큐", "액츠", "한스푼", "드럼", "울샴푸", "캡슐세제", "세제(", "표백제", "옥시크린", "산소계"],
-   "commons": "laundry detergent"
+   "commons": "laundry detergent",
+   "file": "Liquid detergent.JPG"
   },
   {
    "item": "주방세제",
    "cat": "life",
    "kw": ["주방세제", "퐁퐁", "트리오", "자연퐁", "참그린", "식기세척기", "설거지", "프릴"],
-   "commons": "dish soap bottle"
+   "commons": "dish soap bottle",
+   "file": "Dish-soap.jpg"
   },
   {
    "item": "수세미·청소도구",
    "cat": "life",
    "kw": ["수세미", "스펀지", "걸레", "물걸레", "청소포", "빗자루", "밀대"],
-   "commons": "dish sponge"
+   "commons": "dish sponge",
+   "file": "Haushaltsschwaemme.jpg"
   },
   {
    "item": "락스·세정제",
@@ -455,7 +477,8 @@
    "item": "마스크·위생",
    "cat": "life",
    "kw": ["마스크", "반창고", "밴드", "생리식염수"],
-   "commons": "face mask"
+   "commons": "face mask",
+   "file": "KF94 Cottonday mask b.jpg"
   },
   {
    "item": "화장지",
@@ -509,13 +532,15 @@
    "item": "바디워시",
    "cat": "beauty",
    "kw": ["바디워시", "바디클렌저", "샤워젤", "해피바스", "온더바디", "샤워메이트"],
-   "commons": "body wash bottle"
+   "commons": "body wash bottle",
+   "file": "Shower gel bottles.jpg"
   },
   {
    "item": "클렌징",
    "cat": "beauty",
    "kw": ["클렌징", "폼클렌저", "클렌저", "세안", "메이크업리무버", "클렌징오일"],
-   "commons": "facial cleanser foam"
+   "commons": "facial cleanser foam",
+   "file": "Cleanser for men.jpg"
   },
   {
    "item": "헤어스타일링·염색",
@@ -527,7 +552,8 @@
    "item": "스킨·로션",
    "cat": "beauty",
    "kw": ["스킨", "토너", "로션", "에멀젼", "크림", "에센스", "세럼", "앰플", "수분"],
-   "commons": "skin care lotion bottles"
+   "commons": "skin care lotion bottles",
+   "file": "Moisturizing cream.jpg"
   },
   {
    "item": "선크림",
@@ -551,7 +577,8 @@
    "item": "랩·호일·지퍼백",
    "cat": "life",
    "kw": ["랩(", "크린랩", "호일", "알루미늄", "지퍼백", "위생백", "비닐백", "지퍼락", "크린롤백", "크린백", "롤백"],
-   "commons": "plastic wrap aluminium foil"
+   "commons": "plastic wrap aluminium foil",
+   "file": "A roll of aluminum foil.jpg"
   },
   {
    "item": "쓰레기봉투·비닐",
