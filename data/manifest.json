@@ -2,7 +2,7 @@
  "app": "ValueLens",
  "kind": "data-manifest",
  "version": 1,
- "generatedAt": "2026-11-25T20:08:10.724Z",
+ "generatedAt": "2026-11-26T01:04:04.627Z",
  "folders": {
   "distribution/db": "유통 · DB",
   "distribution/api": "유통 · API",
@@ -32,7 +32,7 @@
    "file": "data/distribution/db/chamgagyeok-cost.json",
    "note": "실제 가격 하위 25% ÷ 적정 배수 상한",
    "status": "ok",
-   "updatedAt": "2026-11-25T20:08:10.724Z",
+   "updatedAt": "2026-11-26T01:04:04.627Z",
    "count": 60
   },
   {
@@ -90,6 +90,20 @@
    "count": 7,
    "updatedAt": "2026-11-25T20:08:10.724Z",
    "checkedAt": "2026-11-25T20:08:10.724Z"
+  },
+  {
+   "id": "chamgagyeok_api",
+   "name": "한국소비자원 참가격 (API)",
+   "kind": "commerce",
+   "type": "api",
+   "provider": "한국소비자원 · data.go.kr 15083256",
+   "file": "data/commerce/api/chamgagyeok.json",
+   "note": "전국 마트·슈퍼·백화점·편의점 생필품 실제 판매가격",
+   "status": "ok",
+   "message": "상품 592개 · 판매처 체인 11곳 · 2026-10-23 자료 · 품목 미분류 95개",
+   "count": 592,
+   "updatedAt": "2026-11-26T01:04:04.627Z",
+   "checkedAt": "2026-11-26T01:04:04.627Z"
   }
  ]
 }
