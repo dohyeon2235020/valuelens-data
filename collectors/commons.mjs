@@ -11,8 +11,10 @@ const UA = { 'User-Agent': 'ValueLens-data/1.0 (https://github.com/dohyeon223502
 const FREE = /^(CC0|Public domain|PD|CC BY(-SA)? ?[0-9.]+|CC BY(-SA)?$|Attribution|GFDL)/i;
 const strip = s => String(s || '').replace(/<[^>]*>/g, '').replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#039;/g, "'").replace(/\s+/g, ' ').trim();
 
-async function search(term) {
-    const q = new URLSearchParams({ action: 'query', format: 'json', generator: 'search', gsrsearch: `${term} filetype:bitmap`, gsrnamespace: '6', gsrlimit: '12',
+// file이 정해져 있으면 그 파일을, 없으면 검색어로 찾은 첫 자유 라이선스 사진을 씀
+async function search(term, file) {
+    const q = new URLSearchParams(file ? { action: 'query', format: 'json', titles: 'File:' + file, prop: 'imageinfo', iiprop: 'url|extmetadata|size|mime', iiurlwidth: '640', origin: '*' }
+        : { action: 'query', format: 'json', generator: 'search', gsrsearch: `${term} filetype:bitmap`, gsrnamespace: '6', gsrlimit: '12',
         prop: 'imageinfo', iiprop: 'url|extmetadata|size|mime', iiurlwidth: '640', origin: '*' });
     const d = await fetchJSON(`https://commons.wikimedia.org/w/api.php?${q}`, { headers: UA });
     const pages = Object.values(d.query?.pages || {}).sort((a, b) => (a.index || 0) - (b.index || 0));
@@ -21,7 +23,7 @@ async function search(term) {
         const md = ii.extmetadata || {}, lic = strip(md.LicenseShortName?.value);
         if (!/image\/(jpeg|png|webp)/.test(ii.mime || '') || !FREE.test(lic) || /NC|ND/.test(lic)) continue;
         if ((ii.width || 0) < 400 || (ii.height || 0) < 300) continue;
-        return { image: ii.thumburl || ii.url, sourceUrl: ii.descriptionurl, title: p.title.replace(/^File:/, ''), artist: strip(md.Artist?.value).slice(0, 120) || '작자 미상', license: lic, term };
+        return { image: ii.thumburl || ii.url, sourceUrl: ii.descriptionurl, title: p.title.replace(/^File:/, ''), artist: strip(md.Artist?.value).slice(0, 120) || '작자 미상', license: lic, term: file || term };
     }
     return null;
 }
@@ -30,12 +32,12 @@ export async function run() {
     const cfg = readJSON('config/chamgagyeok-items.json');
     const prev = exists(meta.file) ? readJSON(meta.file) : { items: {} };
     const items = {};
-    const want = [...cfg.items.map(i => [i.item, i.commons]), ...Object.values(cfg.fallback).map(f => [f.item, f.commons])];
+    const want = [...cfg.items.map(i => [i.item, i.commons, i.file]), ...Object.values(cfg.fallback).map(f => [f.item, f.commons, f.file])];
     let found = 0, kept = 0, miss = [];
-    for (const [item, term] of want) {
+    for (const [item, term, file] of want) {
         const old = prev.items?.[item];
-        if (old && old.term === term) { items[item] = old; kept++; continue; }
-        try { const r = await search(term); if (r) { items[item] = r; found++; } else miss.push(item); }
+        if (old && old.term === (file || term)) { items[item] = old; kept++; continue; }
+        try { const r = await search(term, file); if (r) { items[item] = r; found++; } else miss.push(item); }
         catch (e) { if (old) items[item] = old; miss.push(item); }
         await sleep(300);
     }
