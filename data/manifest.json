@@ -2,7 +2,7 @@
  "app": "ValueLens",
  "kind": "data-manifest",
  "version": 1,
- "generatedAt": "2026-11-26T01:13:29.665Z",
+ "generatedAt": "2026-11-26T01:24:26.351Z",
  "folders": {
   "distribution/db": "유통 · DB",
   "distribution/api": "유통 · API",
@@ -32,7 +32,7 @@
    "file": "data/distribution/db/chamgagyeok-cost.json",
    "note": "실제 가격 하위 25% ÷ 적정 배수 상한",
    "status": "ok",
-   "updatedAt": "2026-11-26T01:13:29.665Z",
+   "updatedAt": "2026-11-26T01:24:26.351Z",
    "count": 60
   },
   {
@@ -114,10 +114,10 @@
    "file": "data/commerce/api/commons-images.json",
    "note": "참가격 상품의 품목별 대표 사진 · 저작자·라이선스 표시",
    "status": "ok",
-   "message": "품목 사진 96개 (새로 96 · 유지 0 · 못 찾음 4)",
-   "count": 96,
-   "updatedAt": "2026-11-26T01:13:29.665Z",
-   "checkedAt": "2026-11-26T01:13:29.665Z"
+   "message": "품목 사진 100개 (새로 27 · 유지 73)",
+   "count": 100,
+   "updatedAt": "2026-11-26T01:24:26.351Z",
+   "checkedAt": "2026-11-26T01:24:26.351Z"
   }
  ]
 }
