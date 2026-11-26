@@ -121,6 +121,8 @@ export async function run() {
             };
         }).filter(p => p.stores >= 1).sort((a, b) => b.stores - a.stores);
     }
+    // 품목 분류는 매번 다시 (config/chamgagyeok-items.json을 고치면 바로 반영)
+    products.forEach(p => { const c = classify(p.name, cfg); p.item = c.item; p.category = c.cat; p.matched = c.matched; });
     // 상품별 월 추이 (자료 날짜 순)
     const order = list.filter(s => monthly[s.uddi]).map(s => s.uddi);
     const months = order.map(u => monthly[u].date);
