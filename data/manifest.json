@@ -2,7 +2,7 @@
  "app": "ValueLens",
  "kind": "data-manifest",
  "version": 1,
- "generatedAt": "2026-11-26T01:04:04.627Z",
+ "generatedAt": "2026-11-26T01:13:29.665Z",
  "folders": {
   "distribution/db": "유통 · DB",
   "distribution/api": "유통 · API",
@@ -32,7 +32,7 @@
    "file": "data/distribution/db/chamgagyeok-cost.json",
    "note": "실제 가격 하위 25% ÷ 적정 배수 상한",
    "status": "ok",
-   "updatedAt": "2026-11-26T01:04:04.627Z",
+   "updatedAt": "2026-11-26T01:13:29.665Z",
    "count": 60
   },
   {
@@ -46,8 +46,8 @@
    "status": "ok",
    "message": "품목 6개 · 2026-05~2026-11",
    "count": 6,
-   "updatedAt": "2026-11-25T20:08:10.724Z",
-   "checkedAt": "2026-11-25T20:08:10.724Z"
+   "updatedAt": "2026-11-26T01:13:29.665Z",
+   "checkedAt": "2026-11-26T01:13:29.665Z"
   },
   {
    "id": "customs",
@@ -60,8 +60,8 @@
    "status": "ok",
    "message": "HS 코드 34개",
    "count": 34,
-   "updatedAt": "2026-11-25T20:08:10.724Z",
-   "checkedAt": "2026-11-25T20:08:10.724Z"
+   "updatedAt": "2026-11-26T01:13:29.665Z",
+   "checkedAt": "2026-11-26T01:13:29.665Z"
   },
   {
    "id": "ecos",
@@ -74,8 +74,8 @@
    "status": "ok",
    "message": "지수 6개",
    "count": 6,
-   "updatedAt": "2026-11-25T20:08:10.724Z",
-   "checkedAt": "2026-11-25T20:08:10.724Z"
+   "updatedAt": "2026-11-26T01:13:29.665Z",
+   "checkedAt": "2026-11-26T01:13:29.665Z"
   },
   {
    "id": "kosis",
@@ -88,8 +88,8 @@
    "status": "ok",
    "message": "2026-02~2026-08 임금 7개월 (항목 상용정액급여, 산업분류 C.제조업(10~34), 규모별 전규모(1인이상))",
    "count": 7,
-   "updatedAt": "2026-11-25T20:08:10.724Z",
-   "checkedAt": "2026-11-25T20:08:10.724Z"
+   "updatedAt": "2026-11-26T01:13:29.665Z",
+   "checkedAt": "2026-11-26T01:13:29.665Z"
   },
   {
    "id": "chamgagyeok_api",
@@ -100,10 +100,24 @@
    "file": "data/commerce/api/chamgagyeok.json",
    "note": "전국 마트·슈퍼·백화점·편의점 생필품 실제 판매가격",
    "status": "ok",
-   "message": "상품 592개 · 판매처 체인 11곳 · 2026-10-23 자료 · 품목 미분류 95개",
+   "message": "상품 592개 · 판매처 체인 11곳 · 2026-10-23 자료 (변경 없음)",
    "count": 592,
-   "updatedAt": "2026-11-26T01:04:04.627Z",
-   "checkedAt": "2026-11-26T01:04:04.627Z"
+   "updatedAt": "2026-11-26T01:13:29.665Z",
+   "checkedAt": "2026-11-26T01:13:29.665Z"
+  },
+  {
+   "id": "commons_images",
+   "name": "위키미디어 커먼스 품목 사진",
+   "kind": "commerce",
+   "type": "api",
+   "provider": "Wikimedia Commons (commons.wikimedia.org)",
+   "file": "data/commerce/api/commons-images.json",
+   "note": "참가격 상품의 품목별 대표 사진 · 저작자·라이선스 표시",
+   "status": "ok",
+   "message": "품목 사진 96개 (새로 96 · 유지 0 · 못 찾음 4)",
+   "count": 96,
+   "updatedAt": "2026-11-26T01:13:29.665Z",
+   "checkedAt": "2026-11-26T01:13:29.665Z"
   }
  ]
 }

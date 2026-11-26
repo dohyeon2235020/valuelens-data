@@ -6,7 +6,7 @@
   "type": "api",
   "provider": "한국소비자원 · data.go.kr 15083256"
  },
- "collectedAt": "2026-11-26T01:04:04.627Z",
+ "collectedAt": "2026-11-26T01:13:29.665Z",
  "latest": {
   "uddi": "uddi:bc228824-01df-4fb9-9d74-9f6c09e50738",
   "date": "2026-10-23",
@@ -77,103 +77,7 @@
    "sale_stores"
   ]
  },
- "unmatched": [
-  "아이!깨끗해 항균폼 상큼한레몬향(250ml)",
-  "오뚜기 황도(400g)",
-  "칸타타 프리미엄 라떼(275ml)",
-  "샘표 토장(900g)",
-  "닥터유 에너지바(40g)",
-  "니베아 립 에센셜 케어(4.8g)",
-  "오뚜기 옛날 볶음참깨(200g)",
-  "스타벅스 돌체구스토 하우스 블렌드(102g)",
-  "디펜드 스타일 언더웨어 남성용 파워 대형(8개입)",
-  "고소한옥수수 모닝롤(14개입)",
-  "오뚜기 생와사비(43g)",
-  "고메 크리스피 핫도그(400g)",
-  "제주 위트 에일(500ml)",
-  "디펜드 스타일 언더웨어 여성용 파워 대형(8개입)",
-  "하이뮨 프로틴밸런스(16팩)",
-  "크린롤백(25cm x 35cm)",
-  "백설 햄스빌 두툼한 굿베이컨(340g)",
-  "포스트 콘푸라이트(600g)",
-  "켈로그 레드베리 에너지바(4개입)",
-  "백설 햄스빌 베이컨(330g)",
-  "알쿠니아 황도(840g)",
-  "에스앤비 생와사비(43g)",
-  "아이비(309g)",
-  "하림 용가리치킨(450g)",
-  "썬 부탄가스(4개)",
-  "오뚜기 컵밥 제육덮밥(310g)",
-  "한성 낙지젓갈(150g)",
-  "요플레 오리지널(4개)",
-  "드봉 스위트로즈(4개)",
-  "맥스웰 하우스 오리지날(180개입)",
-  "청정원 맛선생 국내산해물(250g)",
-  "닥터유 에너지바(4개입)",
-  "정통 보름달(3개입)",
-  "당진 해나루쌀 특등급(10kg)",
-  "달콤한 정통만쥬(10개입)",
-  "프렌치카페 카페믹스 스테비아(100개입)",
-  "컴배트 스피드 에어졸(500ml)",
-  "빙그레 더단백 프로틴 드링크 초코(250ml)",
-  "Dole 파인애플 슬라이스(836g)",
-  "움트리 생와사비(120g)",
-  "1등급 다향 훈제오리(500g)",
-  "스타벅스 네스프레소 디카프 에스프레소 로스트(57g)",
-  "전G베이컨(200g)",
-  "롯데 후라보노 오리지날(26g)",
-  "스타벅스 네스프레소 하우스 블렌드(57g)",
-  "프렌치카페 카페믹스(220개입)",
-  "주부9단 베이컨(180g)",
-  "콜리올리 깔끔하게 쓰는 1회용 패드(M, 100매)",
-  "청정원 생와사비(40g)",
-  "바리스타룰스 콜드브루 블랙(325ml)",
-  "포테토칩 오리지날(125g)",
-  "청정원 담백하고 건강한 베이컨(80g)",
-  "비타파워(20개입)",
-  "이오(5개)",
-  "국순당 우국생(750ml)",
-  "오랄비 크로스액션(3개입)",
-  "풀무원 올바른 핫도그(525g)",
-  "핫브레이크 오리지널(45g)",
-  "동원 황도 슬라이스(400g)",
-  "뉴트로지나 립(2번들)",
-  "스페셜K 오리지널(480g)",
-  "밥이보약 DOG 튼튼한관절(2kg)",
-  "밥이보약 CAT 걱정없는 헤어볼(2kg)",
-  "스모크델리 훈제오리(500g)",
-  "라이프리 안심 언더웨어 일반용 대형(18개입)",
-  "당찬진미 특등급(10kg)",
-  "맥스 부탄가스(4개)",
-  "한생 친정엄마 볶음참깨(500g)",
-  "몰리스픽 반려견 패드(L, 45매)",
-  "청오 유기농 발아 볶음참깨(200g)",
-  "정성식품 백명란젓(300g)",
-  "프릴 시크릿 오브 베이킹소다 퓨어레몬향(700ml)",
-  "키퍼스 시니어 안심패드 일자형(30개입)",
-  "경천 시골볶음참깨(230g)",
-  "손잡이 크린백(35cm x 45cm)",
-  "임금님표 이천쌀 특등급(10kg)",
-  "대왕님표 여주 진상미(4kg)",
-  "오뚜기 연와사비(35g)",
-  "오로나민C(10개입)",
-  "깨수깡(160ml)",
-  "여명808(140ml)",
-  "더 탱글 마이구미(372.4g)",
-  "키퍼스 언더웨어 타입 대형(14개입)",
-  "오뚜기 옛날 볶음참깨(100g)",
-  "몰리스 쉬야응가 3~4회용 패드(L, 35매)",
-  "뉴케어 올프로틴 고소한맛(245ml)",
-  "대왕님표 여주 진상미(10kg)",
-  "닥터지 그린라이트 업 선 플러스(35ml)",
-  "쪽파(흙쪽파)",
-  "콜리올리 깔끔하게 쓰는 1회용 패드(L, 40매)",
-  "닥터지 브라이트닝 업 선 플러스(35ml)",
-  "담미정 조청유과(200g)",
-  "동원 낙지젓(180g)",
-  "대하(100g)",
-  "부세(200~400g)"
- ],
+ "unmatched": [],
  "products": [
   {
    "code": "CG1KUVWZW",
@@ -2197,9 +2101,9 @@
    "code": "CG0BKMLWR",
    "name": "아이!깨끗해 항균폼 상큼한레몬향(250ml)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
-   "category": "food",
-   "matched": false,
+   "item": "비누·핸드워시",
+   "category": "beauty",
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -2625,9 +2529,9 @@
    "code": "CG0WU0FLS",
    "name": "오뚜기 황도(400g)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
+   "item": "과일통조림",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -2819,9 +2723,9 @@
    "code": "CG0TL0EM7",
    "name": "칸타타 프리미엄 라떼(275ml)",
    "maker": "편의점",
-   "item": "기타 가공식품",
+   "item": "커피믹스",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -3053,7 +2957,7 @@
    "code": "CG1JKGFDU",
    "name": "풀무원 새콤달콤 유부초밥(330g)",
    "maker": "슈퍼마켓",
-   "item": "유부초밥·김밥",
+   "item": "유부초밥·김밥재료",
    "category": "food",
    "matched": true,
    "surveyDates": [
@@ -4164,9 +4068,9 @@
    "code": "CG1TMPGHF",
    "name": "샘표 토장(900g)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
+   "item": "된장·쌈장",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -4653,7 +4557,7 @@
    "code": "CG0Y1MBEM",
    "name": "서울우유 버터(450g)",
    "maker": "백화점",
-   "item": "우유",
+   "item": "버터·마가린",
    "category": "food",
    "matched": true,
    "surveyDates": [
@@ -5041,9 +4945,9 @@
    "code": "CG0EO5DSK",
    "name": "닥터유 에너지바(40g)",
    "maker": "슈퍼마켓",
-   "item": "기타 가공식품",
+   "item": "시리얼",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -6253,9 +6157,9 @@
    "code": "CG0I6GEK2",
    "name": "니베아 립 에센셜 케어(4.8g)",
    "maker": "슈퍼마켓",
-   "item": "기타 가공식품",
-   "category": "food",
-   "matched": false,
+   "item": "립케어",
+   "category": "beauty",
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -6973,9 +6877,9 @@
    "code": "CG08H17JY",
    "name": "오뚜기 옛날 볶음참깨(200g)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
+   "item": "양념·조미료",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -7212,9 +7116,9 @@
    "code": "CG10FZBAX",
    "name": "스타벅스 돌체구스토 하우스 블렌드(102g)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
+   "item": "커피믹스",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -7653,7 +7557,7 @@
    "code": "CG10F5AXO",
    "name": "서울우유 체다슬라이스치즈(360g)",
    "maker": "대형마트",
-   "item": "우유",
+   "item": "치즈",
    "category": "food",
    "matched": true,
    "surveyDates": [
@@ -7932,9 +7836,9 @@
    "code": "CG0333TY2",
    "name": "디펜드 스타일 언더웨어 남성용 파워 대형(8개입)",
    "maker": "슈퍼마켓",
-   "item": "기타 가공식품",
-   "category": "food",
-   "matched": false,
+   "item": "기저귀",
+   "category": "life",
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -8429,7 +8333,7 @@
    "code": "CG1FMJT49",
    "name": "일가집 비타 김밥단무지(400g)",
    "maker": "대형마트",
-   "item": "유부초밥·김밥",
+   "item": "유부초밥·김밥재료",
    "category": "food",
    "matched": true,
    "surveyDates": [
@@ -8522,7 +8426,7 @@
    "code": "CG0XHNJ8L",
    "name": "버터롤 클래식(21개입)",
    "maker": "슈퍼마켓",
-   "item": "버터·마가린",
+   "item": "식빵·빵",
    "category": "food",
    "matched": true,
    "surveyDates": [
@@ -9210,9 +9114,9 @@
    "code": "CG0EPK42U",
    "name": "고소한옥수수 모닝롤(14개입)",
    "maker": "슈퍼마켓",
-   "item": "기타 가공식품",
+   "item": "식빵·빵",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -10523,9 +10427,9 @@
    "code": "CG0C0X5QT",
    "name": "오뚜기 생와사비(43g)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
+   "item": "양념·조미료",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -10725,9 +10629,9 @@
    "code": "CG1IB7D2E",
    "name": "고메 크리스피 핫도그(400g)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
+   "item": "냉동식품",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -11857,7 +11761,7 @@
    "code": "CG05MLCP2",
    "name": "풀무원 김밥단무지(400g)",
    "maker": "슈퍼마켓",
-   "item": "유부초밥·김밥",
+   "item": "유부초밥·김밥재료",
    "category": "food",
    "matched": true,
    "surveyDates": [
@@ -13135,9 +13039,9 @@
    "code": "CG0LNHN9U",
    "name": "제주 위트 에일(500ml)",
    "maker": "슈퍼마켓",
-   "item": "기타 가공식품",
+   "item": "맥주",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -13539,9 +13443,9 @@
    "code": "CG1J3G2PI",
    "name": "디펜드 스타일 언더웨어 여성용 파워 대형(8개입)",
    "maker": "슈퍼마켓",
-   "item": "기타 가공식품",
-   "category": "food",
-   "matched": false,
+   "item": "기저귀",
+   "category": "life",
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -13733,7 +13637,7 @@
    "code": "CG1JO619V",
    "name": "하선정 4무첨가 김밥단무지(370g)",
    "maker": "슈퍼마켓",
-   "item": "유부초밥·김밥",
+   "item": "유부초밥·김밥재료",
    "category": "food",
    "matched": true,
    "surveyDates": [
@@ -14522,7 +14426,7 @@
    "code": "CG0GDUPR0",
    "name": "바프 허니버터아몬드(120g)",
    "maker": "슈퍼마켓",
-   "item": "버터·마가린",
+   "item": "견과·건과",
    "category": "food",
    "matched": true,
    "surveyDates": [
@@ -15064,9 +14968,9 @@
    "code": "CG0IBOG7Y",
    "name": "하이뮨 프로틴밸런스(16팩)",
    "maker": "슈퍼마켓",
-   "item": "기타 가공식품",
+   "item": "이온·기능음료",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -15295,9 +15199,9 @@
    "code": "CG1YIEA8K",
    "name": "크린롤백(25cm x 35cm)",
    "maker": "슈퍼마켓",
-   "item": "기타 가공식품",
-   "category": "food",
-   "matched": false,
+   "item": "랩·호일·지퍼백",
+   "category": "life",
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -15712,9 +15616,9 @@
    "code": "CG0S8D85Y",
    "name": "백설 햄스빌 두툼한 굿베이컨(340g)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
+   "item": "햄·통조림햄",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -16610,7 +16514,7 @@
    "code": "CG1IWE1RD",
    "name": "델몬트 후레쉬컷 슬라이스 파인애플(836g)",
    "maker": "대형마트",
-   "item": "주스",
+   "item": "과일통조림",
    "category": "food",
    "matched": true,
    "surveyDates": [
@@ -16796,9 +16700,9 @@
    "code": "CG181BKQ9",
    "name": "포스트 콘푸라이트(600g)",
    "maker": "슈퍼마켓",
-   "item": "기타 가공식품",
+   "item": "시리얼",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -17370,9 +17274,9 @@
    "code": "CG0Q473KJ",
    "name": "켈로그 레드베리 에너지바(4개입)",
    "maker": "슈퍼마켓",
-   "item": "기타 가공식품",
+   "item": "시리얼",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -18743,9 +18647,9 @@
    "code": "CG11M42OQ",
    "name": "백설 햄스빌 베이컨(330g)",
    "maker": "슈퍼마켓",
-   "item": "기타 가공식품",
+   "item": "햄·통조림햄",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -18905,9 +18809,9 @@
    "code": "CG0DTUK1I",
    "name": "알쿠니아 황도(840g)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
+   "item": "과일통조림",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -18990,9 +18894,9 @@
    "code": "CG0O90JQV",
    "name": "에스앤비 생와사비(43g)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
+   "item": "양념·조미료",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -19192,7 +19096,7 @@
    "code": "CG1LA1VFI",
    "name": "동원 초밥의달인 롤 유부초밥 고소한맛(254g)",
    "maker": "대형마트",
-   "item": "유부초밥·김밥",
+   "item": "유부초밥·김밥재료",
    "category": "food",
    "matched": true,
    "surveyDates": [
@@ -19362,9 +19266,9 @@
    "code": "CG0PD1U9D",
    "name": "아이비(309g)",
    "maker": "슈퍼마켓",
-   "item": "기타 가공식품",
+   "item": "과자",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -19848,7 +19752,7 @@
    "code": "CG0MX2ZSM",
    "name": "한성 오징어젓갈(150g)",
    "maker": "슈퍼마켓",
-   "item": "수산물",
+   "item": "젓갈",
    "category": "food",
    "matched": true,
    "surveyDates": [
@@ -20063,9 +19967,9 @@
    "code": "CG0LV7GHB",
    "name": "하림 용가리치킨(450g)",
    "maker": "슈퍼마켓",
-   "item": "기타 가공식품",
+   "item": "냉동식품",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -20310,9 +20214,9 @@
    "code": "CG0UXDS5A",
    "name": "썬 부탄가스(4개)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
-   "category": "food",
-   "matched": false,
+   "item": "부탄가스·연료",
+   "category": "life",
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -20695,9 +20599,9 @@
    "code": "CG16K1ZGF",
    "name": "오뚜기 컵밥 제육덮밥(310g)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
+   "item": "즉석밥",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -20849,9 +20753,9 @@
    "code": "CG18BJSDI",
    "name": "한성 낙지젓갈(150g)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
+   "item": "젓갈",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -20926,9 +20830,9 @@
    "code": "CG0ECZ0VU",
    "name": "요플레 오리지널(4개)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
+   "item": "발효유",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -21736,9 +21640,9 @@
    "code": "CG1XBV7FP",
    "name": "드봉 스위트로즈(4개)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
-   "category": "food",
-   "matched": false,
+   "item": "비누·핸드워시",
+   "category": "beauty",
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -21890,9 +21794,9 @@
    "code": "CG132GSD7",
    "name": "맥스웰 하우스 오리지날(180개입)",
    "maker": "슈퍼마켓",
-   "item": "기타 가공식품",
+   "item": "커피믹스",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -22307,9 +22211,9 @@
    "code": "CG1U0EUVJ",
    "name": "청정원 맛선생 국내산해물(250g)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
+   "item": "양념·조미료",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -22384,7 +22288,7 @@
    "code": "CG07QBMYV",
    "name": "청정원 김밥용 단무지(400g)",
    "maker": "대형마트",
-   "item": "유부초밥·김밥",
+   "item": "유부초밥·김밥재료",
    "category": "food",
    "matched": true,
    "surveyDates": [
@@ -22822,9 +22726,9 @@
    "code": "CG0WIGG5A",
    "name": "닥터유 에너지바(4개입)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
+   "item": "시리얼",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -23069,9 +22973,9 @@
    "code": "CG034CW1K",
    "name": "정통 보름달(3개입)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
+   "item": "식빵·빵",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -23515,9 +23419,9 @@
    "code": "CG110KXEV",
    "name": "당진 해나루쌀 특등급(10kg)",
    "maker": "슈퍼마켓",
-   "item": "기타 가공식품",
+   "item": "쌀·잡곡",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -23629,9 +23533,9 @@
    "code": "CG144L58E",
    "name": "달콤한 정통만쥬(10개입)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
+   "item": "식빵·빵",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -23690,9 +23594,9 @@
    "code": "CG10BP1X7",
    "name": "프렌치카페 카페믹스 스테비아(100개입)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
+   "item": "커피믹스",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -25786,9 +25690,9 @@
    "code": "CG0KF9HAS",
    "name": "컴배트 스피드 에어졸(500ml)",
    "maker": "슈퍼마켓",
-   "item": "기타 가공식품",
-   "category": "food",
-   "matched": false,
+   "item": "방향·탈취·살충",
+   "category": "life",
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -26086,7 +25990,7 @@
    "code": "CG0VJWFZY",
    "name": "CJ 주부초밥왕 롤 새콤달콤 유부초밥(229g)",
    "maker": "슈퍼마켓",
-   "item": "유부초밥·김밥",
+   "item": "유부초밥·김밥재료",
    "category": "food",
    "matched": true,
    "surveyDates": [
@@ -26155,9 +26059,9 @@
    "code": "CG1NDPTRJ",
    "name": "빙그레 더단백 프로틴 드링크 초코(250ml)",
    "maker": "슈퍼마켓",
-   "item": "기타 가공식품",
+   "item": "이온·기능음료",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -26495,9 +26399,9 @@
    "code": "CG0VQOYRA",
    "name": "Dole 파인애플 슬라이스(836g)",
    "maker": "슈퍼마켓",
-   "item": "기타 가공식품",
+   "item": "과일통조림",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -26795,9 +26699,9 @@
    "code": "CG1LQ4JG5",
    "name": "움트리 생와사비(120g)",
    "maker": "슈퍼마켓",
-   "item": "기타 가공식품",
+   "item": "양념·조미료",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -27164,9 +27068,9 @@
    "code": "CG0F0RTSK",
    "name": "1등급 다향 훈제오리(500g)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
+   "item": "닭고기",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -27379,8 +27283,8 @@
    "code": "CG1Q0T22B",
    "name": "크리넥스 수프림소프트 3겹 화장지(30롤)",
    "maker": "슈퍼마켓",
-   "item": "수프",
-   "category": "food",
+   "item": "화장지",
+   "category": "life",
    "matched": true,
    "surveyDates": [
     "2026-10-09",
@@ -27432,9 +27336,9 @@
    "code": "CG1ENBIV8",
    "name": "스타벅스 네스프레소 디카프 에스프레소 로스트(57g)",
    "maker": "슈퍼마켓",
-   "item": "기타 가공식품",
+   "item": "커피믹스",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -27517,9 +27421,9 @@
    "code": "CG0J2CDR2",
    "name": "전G베이컨(200g)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
+   "item": "햄·통조림햄",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -27586,7 +27490,7 @@
    "code": "CG0JJFA3F",
    "name": "촉촉한 우유식빵(330g)",
    "maker": "슈퍼마켓",
-   "item": "우유",
+   "item": "식빵·빵",
    "category": "food",
    "matched": true,
    "surveyDates": [
@@ -27716,9 +27620,9 @@
    "code": "CG0YE7OZU",
    "name": "롯데 후라보노 오리지날(26g)",
    "maker": "슈퍼마켓",
-   "item": "기타 가공식품",
+   "item": "사탕·젤리·껌",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -28133,9 +28037,9 @@
    "code": "CG19WWSRG",
    "name": "스타벅스 네스프레소 하우스 블렌드(57g)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
+   "item": "커피믹스",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -28417,9 +28321,9 @@
    "code": "CG1TNEBB6",
    "name": "프렌치카페 카페믹스(220개입)",
    "maker": "슈퍼마켓",
-   "item": "기타 가공식품",
+   "item": "커피믹스",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -28454,9 +28358,9 @@
    "code": "CG11FDAPN",
    "name": "주부9단 베이컨(180g)",
    "maker": "슈퍼마켓",
-   "item": "기타 가공식품",
+   "item": "햄·통조림햄",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -28491,9 +28395,9 @@
    "code": "CG0BHDQPK",
    "name": "콜리올리 깔끔하게 쓰는 1회용 패드(M, 100매)",
    "maker": "슈퍼마켓",
-   "item": "기타 가공식품",
-   "category": "food",
-   "matched": false,
+   "item": "반려동물용품",
+   "category": "life",
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -29348,7 +29252,7 @@
    "code": "CG1V2JSWF",
    "name": "고메 바삭튀겨낸 통등심돈카츠(450g)",
    "maker": "슈퍼마켓",
-   "item": "쇠고기",
+   "item": "냉동식품",
    "category": "food",
    "matched": true,
    "surveyDates": [
@@ -29757,7 +29661,7 @@
    "code": "CG0CMXDRI",
    "name": "풀무원 통등심돈카츠(450g)",
    "maker": "대형마트",
-   "item": "쇠고기",
+   "item": "냉동식품",
    "category": "food",
    "matched": true,
    "surveyDates": [
@@ -29980,7 +29884,7 @@
    "code": "CG0HM2N8M",
    "name": "양반 들기름김 올리브김 복합기획(16봉)",
    "maker": "백화점",
-   "item": "참기름·들기름",
+   "item": "김",
    "category": "food",
    "matched": true,
    "surveyDates": [
@@ -30049,9 +29953,9 @@
    "code": "CG0ZEKXDU",
    "name": "청정원 생와사비(40g)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
+   "item": "양념·조미료",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -30750,9 +30654,9 @@
    "code": "CG0IL6A2Y",
    "name": "바리스타룰스 콜드브루 블랙(325ml)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
+   "item": "커피믹스",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -31074,9 +30978,9 @@
    "code": "CG1G2R4EG",
    "name": "포테토칩 오리지날(125g)",
    "maker": "백화점",
-   "item": "기타 가공식품",
+   "item": "과자",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -31159,7 +31063,7 @@
    "code": "CG1PGJGR0",
    "name": "피죤 습기제로(8개입)",
    "maker": "슈퍼마켓",
-   "item": "섬유유연제",
+   "item": "방향·탈취·살충",
    "category": "life",
    "matched": true,
    "surveyDates": [
@@ -31650,9 +31554,9 @@
    "code": "CG1L3ZW7R",
    "name": "청정원 담백하고 건강한 베이컨(80g)",
    "maker": "슈퍼마켓",
-   "item": "기타 가공식품",
+   "item": "햄·통조림햄",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -31995,9 +31899,9 @@
    "code": "CG15TYMKL",
    "name": "비타파워(20개입)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
+   "item": "이온·기능음료",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -32157,9 +32061,9 @@
    "code": "CG0U4VZWL",
    "name": "이오(5개)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
+   "item": "발효유",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -32364,9 +32268,9 @@
    "code": "CG1DQBKQB",
    "name": "국순당 우국생(750ml)",
    "maker": "슈퍼마켓",
-   "item": "기타 가공식품",
+   "item": "막걸리·주류",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -32563,9 +32467,9 @@
    "code": "CG0ACJI7N",
    "name": "오랄비 크로스액션(3개입)",
    "maker": "슈퍼마켓",
-   "item": "기타 가공식품",
-   "category": "food",
-   "matched": false,
+   "item": "칫솔",
+   "category": "beauty",
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -32624,9 +32528,9 @@
    "code": "CG0X7W25C",
    "name": "풀무원 올바른 핫도그(525g)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
+   "item": "냉동식품",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -32693,9 +32597,9 @@
    "code": "CG0EB87M1",
    "name": "핫브레이크 오리지널(45g)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
+   "item": "초콜릿",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -32794,9 +32698,9 @@
    "code": "CG092Z8GJ",
    "name": "동원 황도 슬라이스(400g)",
    "maker": "슈퍼마켓",
-   "item": "기타 가공식품",
+   "item": "과일통조림",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -33208,9 +33112,9 @@
    "code": "CG1CA7XIH",
    "name": "뉴트로지나 립(2번들)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
-   "category": "food",
-   "matched": false,
+   "item": "립케어",
+   "category": "beauty",
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -33903,7 +33807,7 @@
    "code": "CG0FRNFWG",
    "name": "동원 그릴리 델리햄 김밥용(150g)",
    "maker": "대형마트",
-   "item": "유부초밥·김밥",
+   "item": "유부초밥·김밥재료",
    "category": "food",
    "matched": true,
    "surveyDates": [
@@ -34139,9 +34043,9 @@
    "code": "CG1TCEVG4",
    "name": "스페셜K 오리지널(480g)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
+   "item": "시리얼",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -34513,9 +34417,9 @@
    "code": "CG0H1BRNK",
    "name": "밥이보약 DOG 튼튼한관절(2kg)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
-   "category": "food",
-   "matched": false,
+   "item": "반려동물용품",
+   "category": "life",
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -34802,9 +34706,9 @@
    "code": "CG0G6GMA8",
    "name": "밥이보약 CAT 걱정없는 헤어볼(2kg)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
-   "category": "food",
-   "matched": false,
+   "item": "반려동물용품",
+   "category": "life",
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -34847,9 +34751,9 @@
    "code": "CG0F2WR7I",
    "name": "스모크델리 훈제오리(500g)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
+   "item": "닭고기",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -34958,9 +34862,9 @@
    "code": "CG0VMROBK",
    "name": "라이프리 안심 언더웨어 일반용 대형(18개입)",
    "maker": "슈퍼마켓",
-   "item": "기타 가공식품",
-   "category": "food",
-   "matched": false,
+   "item": "기저귀",
+   "category": "life",
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -34995,9 +34899,9 @@
    "code": "CG1DVB46F",
    "name": "당찬진미 특등급(10kg)",
    "maker": "슈퍼마켓",
-   "item": "기타 가공식품",
+   "item": "쌀·잡곡",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -35069,9 +34973,9 @@
    "code": "CG0F8IRP3",
    "name": "맥스 부탄가스(4개)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
-   "category": "food",
-   "matched": false,
+   "item": "부탄가스·연료",
+   "category": "life",
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -35241,7 +35145,7 @@
    "code": "CG159NKIW",
    "name": "김밥용 크래미(120g)",
    "maker": "대형마트",
-   "item": "유부초밥·김밥",
+   "item": "유부초밥·김밥재료",
    "category": "food",
    "matched": true,
    "surveyDates": [
@@ -35424,9 +35328,9 @@
    "code": "CG04U4P1Y",
    "name": "한생 친정엄마 볶음참깨(500g)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
+   "item": "양념·조미료",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -35506,9 +35410,9 @@
    "code": "CG10IF1JE",
    "name": "몰리스픽 반려견 패드(L, 45매)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
-   "category": "food",
-   "matched": false,
+   "item": "반려동물용품",
+   "category": "life",
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -35898,9 +35802,9 @@
    "code": "CG1N4L8RZ",
    "name": "청오 유기농 발아 볶음참깨(200g)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
+   "item": "양념·조미료",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -35972,9 +35876,9 @@
    "code": "CG01IQHK0",
    "name": "정성식품 백명란젓(300g)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
+   "item": "젓갈",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -36115,9 +36019,9 @@
    "code": "CG00M538N",
    "name": "프릴 시크릿 오브 베이킹소다 퓨어레몬향(700ml)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
-   "category": "food",
-   "matched": false,
+   "item": "주방세제",
+   "category": "life",
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -36208,9 +36112,9 @@
    "code": "CG1L4OZL9",
    "name": "키퍼스 시니어 안심패드 일자형(30개입)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
-   "category": "food",
-   "matched": false,
+   "item": "기저귀",
+   "category": "life",
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -36261,9 +36165,9 @@
    "code": "CG002C857",
    "name": "경천 시골볶음참깨(230g)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
+   "item": "양념·조미료",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -36306,7 +36210,7 @@
    "code": "CG1K1M15C",
    "name": "아이꼬야 맘스쿠킹 소고기와두부진밥(100g)",
    "maker": "대형마트",
-   "item": "두부",
+   "item": "분유·이유식",
    "category": "food",
    "matched": true,
    "surveyDates": [
@@ -36473,9 +36377,9 @@
    "code": "CG11UIER9",
    "name": "손잡이 크린백(35cm x 45cm)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
-   "category": "food",
-   "matched": false,
+   "item": "랩·호일·지퍼백",
+   "category": "life",
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -36526,7 +36430,7 @@
    "code": "CG1LCXQED",
    "name": "아이얌 아기밀 한우표고야채진밥(100g)",
    "maker": "대형마트",
-   "item": "쇠고기",
+   "item": "분유·이유식",
    "category": "food",
    "matched": true,
    "surveyDates": [
@@ -36653,9 +36557,9 @@
    "code": "CG17EBB3Q",
    "name": "임금님표 이천쌀 특등급(10kg)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
+   "item": "쌀·잡곡",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -36690,7 +36594,7 @@
    "code": "CG1CK45U8",
    "name": "정성식품 오징어젓(400g)",
    "maker": "대형마트",
-   "item": "수산물",
+   "item": "젓갈",
    "category": "food",
    "matched": true,
    "surveyDates": [
@@ -36960,9 +36864,9 @@
    "code": "CG1NSKS1C",
    "name": "대왕님표 여주 진상미(4kg)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
+   "item": "쌀·잡곡",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -37220,9 +37124,9 @@
    "code": "CG0NWYIHJ",
    "name": "오뚜기 연와사비(35g)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
+   "item": "양념·조미료",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -37637,9 +37541,9 @@
    "code": "CG1RNG4SB",
    "name": "오로나민C(10개입)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
+   "item": "이온·기능음료",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -38245,8 +38149,8 @@
    "code": "CG1WYEMJX",
    "name": "유한락스 레귤러(2L)",
    "maker": "대형마트",
-   "item": "과일",
-   "category": "food",
+   "item": "락스·세정제",
+   "category": "life",
    "matched": true,
    "surveyDates": [
     "2026-10-09",
@@ -38826,7 +38730,7 @@
    "code": "CG0MMY4AQ",
    "name": "대림선 신선한 김밥단무지(400g)",
    "maker": "대형마트",
-   "item": "유부초밥·김밥",
+   "item": "유부초밥·김밥재료",
    "category": "food",
    "matched": true,
    "surveyDates": [
@@ -38988,9 +38892,9 @@
    "code": "CG16QDG1V",
    "name": "깨수깡(160ml)",
    "maker": "편의점",
-   "item": "기타 가공식품",
+   "item": "이온·기능음료",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -39065,9 +38969,9 @@
    "code": "CG1OXW13Z",
    "name": "여명808(140ml)",
    "maker": "백화점",
-   "item": "기타 가공식품",
+   "item": "이온·기능음료",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -39856,7 +39760,7 @@
    "code": "CG1VBEZ5V",
    "name": "들기름 재래 도시락김(12봉)",
    "maker": "백화점",
-   "item": "참기름·들기름",
+   "item": "김",
    "category": "food",
    "matched": true,
    "surveyDates": [
@@ -39994,9 +39898,9 @@
    "code": "CG1J6Y1R6",
    "name": "더 탱글 마이구미(372.4g)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
+   "item": "사탕·젤리·껌",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -40238,7 +40142,7 @@
    "code": "CG06NXY9C",
    "name": "하기스 매직컴포트 대형 공용 팬티형 4단계(50매)",
    "maker": "대형마트",
-   "item": "섬유유연제",
+   "item": "기저귀",
    "category": "life",
    "matched": true,
    "surveyDates": [
@@ -40299,7 +40203,7 @@
    "code": "CG041KG21",
    "name": "하기스 매직컴포트 특대형 공용 팬티형 5단계(42매)",
    "maker": "대형마트",
-   "item": "섬유유연제",
+   "item": "기저귀",
    "category": "life",
    "matched": true,
    "surveyDates": [
@@ -40649,9 +40553,9 @@
    "code": "CG0JUS1HE",
    "name": "키퍼스 언더웨어 타입 대형(14개입)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
-   "category": "food",
-   "matched": false,
+   "item": "기저귀",
+   "category": "life",
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -40694,9 +40598,9 @@
    "code": "CG1PW7T3R",
    "name": "오뚜기 옛날 볶음참깨(100g)",
    "maker": "백화점",
-   "item": "기타 가공식품",
+   "item": "양념·조미료",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -41211,7 +41115,7 @@
    "code": "CG1NVXHCU",
    "name": "네스카페 수프리모 골드 마일드 커피믹스(240개입)",
    "maker": "대형마트",
-   "item": "수프",
+   "item": "커피믹스",
    "category": "food",
    "matched": true,
    "surveyDates": [
@@ -41309,7 +41213,7 @@
    "code": "CG1XXRLNM",
    "name": "의성마늘 훈제오리 슬라이스(400g)",
    "maker": "대형마트",
-   "item": "채소",
+   "item": "닭고기",
    "category": "food",
    "matched": true,
    "surveyDates": [
@@ -41354,9 +41258,9 @@
    "code": "CG0S01UY7",
    "name": "몰리스 쉬야응가 3~4회용 패드(L, 35매)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
-   "category": "food",
-   "matched": false,
+   "item": "반려동물용품",
+   "category": "life",
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -41526,7 +41430,7 @@
    "code": "CG01S9F7Y",
    "name": "하기스 매직컴포트 중형 공용 밴드형 3단계(72매)",
    "maker": "대형마트",
-   "item": "섬유유연제",
+   "item": "기저귀",
    "category": "life",
    "matched": true,
    "surveyDates": [
@@ -41942,9 +41846,9 @@
    "code": "CG1I5C5WL",
    "name": "뉴케어 올프로틴 고소한맛(245ml)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
+   "item": "이온·기능음료",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -43147,7 +43051,7 @@
    "code": "CG13M0SRI",
    "name": "서울우유 체다슬라이스치즈(270g)",
    "maker": "대형마트",
-   "item": "우유",
+   "item": "치즈",
    "category": "food",
    "matched": true,
    "surveyDates": [
@@ -43261,9 +43165,9 @@
    "code": "CG0H9RGRT",
    "name": "대왕님표 여주 진상미(10kg)",
    "maker": "편의점",
-   "item": "기타 가공식품",
+   "item": "쌀·잡곡",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -43990,9 +43894,9 @@
    "code": "CG0BJNNQ3",
    "name": "닥터지 그린라이트 업 선 플러스(35ml)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
-   "category": "food",
-   "matched": false,
+   "item": "선크림",
+   "category": "beauty",
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -44088,9 +43992,9 @@
    "code": "CG14X8739",
    "name": "쪽파(흙쪽파)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
+   "item": "채소",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -44456,9 +44360,9 @@
    "code": "CG0YBTMPO",
    "name": "콜리올리 깔끔하게 쓰는 1회용 패드(L, 40매)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
-   "category": "food",
-   "matched": false,
+   "item": "반려동물용품",
+   "category": "life",
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -44530,9 +44434,9 @@
    "code": "CG0PXQD38",
    "name": "닥터지 브라이트닝 업 선 플러스(35ml)",
    "maker": "편의점",
-   "item": "기타 가공식품",
-   "category": "food",
-   "matched": false,
+   "item": "선크림",
+   "category": "beauty",
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -44792,9 +44696,9 @@
    "code": "CG10ZHN8L",
    "name": "담미정 조청유과(200g)",
    "maker": "백화점",
-   "item": "기타 가공식품",
+   "item": "과자",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -44829,9 +44733,9 @@
    "code": "CG07LAEF9",
    "name": "동원 낙지젓(180g)",
    "maker": "슈퍼마켓",
-   "item": "기타 가공식품",
+   "item": "젓갈",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09",
     "2026-10-23"
@@ -44903,9 +44807,9 @@
    "code": "CG09IW1B6",
    "name": "대하(100g)",
    "maker": "백화점",
-   "item": "기타 가공식품",
+   "item": "수산물",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-09"
    ],
@@ -45008,9 +44912,9 @@
    "code": "CG1HK67D9",
    "name": "부세(200~400g)",
    "maker": "대형마트",
-   "item": "기타 가공식품",
+   "item": "수산물",
    "category": "food",
-   "matched": false,
+   "matched": true,
    "surveyDates": [
     "2026-10-23"
    ],

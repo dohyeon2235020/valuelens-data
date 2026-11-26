@@ -1,0 +1,786 @@
+{
+ "source": {
+  "id": "commons_images",
+  "name": "위키미디어 커먼스 품목 사진",
+  "kind": "commerce",
+  "type": "api",
+  "provider": "Wikimedia Commons (commons.wikimedia.org)"
+ },
+ "collectedAt": "2026-11-26T01:13:29.665Z",
+ "items": {
+  "립케어": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Photo_on_2-6-21_at_7.41_pm.jpg/960px-Photo_on_2-6-21_at_7.41_pm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Photo_on_2-6-21_at_7.41_pm.jpg",
+   "title": "Photo on 2-6-21 at 7.41 pm.jpg",
+   "artist": "Kafka10",
+   "license": "CC BY-SA 4.0",
+   "term": "lip balm"
+  },
+  "유부초밥·김밥재료": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Sashimi_of_S%C3%A3o_Paulo.jpg/960px-Sashimi_of_S%C3%A3o_Paulo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sashimi_of_S%C3%A3o_Paulo.jpg",
+   "title": "Sashimi of São Paulo.jpg",
+   "artist": "Wilfredor",
+   "license": "CC BY-SA 4.0",
+   "term": "inarizushi"
+  },
+  "수프": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/2023_Fili%C5%BCanka_do_bulionu.jpg/960px-2023_Fili%C5%BCanka_do_bulionu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:2023_Fili%C5%BCanka_do_bulionu.jpg",
+   "title": "2023 Filiżanka do bulionu.jpg",
+   "artist": "Jacek Halicki",
+   "license": "CC BY-SA 4.0",
+   "term": "cream soup bowl"
+  },
+  "즉석밥": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/A_bowl_of_rice.jpg/960px-A_bowl_of_rice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_bowl_of_rice.jpg",
+   "title": "A bowl of rice.jpg",
+   "artist": "Douglas Perkins",
+   "license": "CC0",
+   "term": "cooked white rice bowl"
+  },
+  "즉석국·탕": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Baamboo_Rice_Soup.jpg/960px-Baamboo_Rice_Soup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baamboo_Rice_Soup.jpg",
+   "title": "Baamboo Rice Soup.jpg",
+   "artist": "Reji Jacob",
+   "license": "CC BY-SA 3.0",
+   "term": "Korean soup gukbap"
+  },
+  "죽": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Korean_rice_porridge_Vegetable_juk.jpg/960px-Korean_rice_porridge_Vegetable_juk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Korean_rice_porridge_Vegetable_juk.jpg",
+   "title": "Korean rice porridge Vegetable juk.jpg",
+   "artist": "Mar del Este",
+   "license": "CC BY-SA 4.0",
+   "term": "Korean rice porridge juk"
+  },
+  "컵라면": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Nissin_Cup_Noodle_%28Original%29_-_01.jpg/960px-Nissin_Cup_Noodle_%28Original%29_-_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nissin_Cup_Noodle_(Original)_-_01.jpg",
+   "title": "Nissin Cup Noodle (Original) - 01.jpg",
+   "artist": "Quercus acuta",
+   "license": "CC BY-SA 4.0",
+   "term": "cup noodles"
+  },
+  "라면": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Top_Ramen_chicken_flavor.JPG/960px-Top_Ramen_chicken_flavor.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Top_Ramen_chicken_flavor.JPG",
+   "title": "Top Ramen chicken flavor.JPG",
+   "artist": "BrokenSphere",
+   "license": "CC BY-SA 3.0",
+   "term": "instant ramen noodles"
+  },
+  "파스타": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/DEMACO_Pasta_Spreader_P100.jpg/960px-DEMACO_Pasta_Spreader_P100.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:DEMACO_Pasta_Spreader_P100.jpg",
+   "title": "DEMACO Pasta Spreader P100.jpg",
+   "artist": "Leonard J. DeFrancisci (copyright holder)",
+   "license": "CC BY-SA 4.0",
+   "term": "dried spaghetti pasta"
+  },
+  "과일통조림": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Canned_peach_halves_in_a_metal_bowl.jpg/960px-Canned_peach_halves_in_a_metal_bowl.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Canned_peach_halves_in_a_metal_bowl.jpg",
+   "title": "Canned peach halves in a metal bowl.jpg",
+   "artist": "Horacio Cambeiro",
+   "license": "CC BY-SA 3.0",
+   "term": "canned peaches"
+  },
+  "참치캔": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Canned_and_packaged_tuna_on_supermarket_shelves.jpg/960px-Canned_and_packaged_tuna_on_supermarket_shelves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Canned_and_packaged_tuna_on_supermarket_shelves.jpg",
+   "title": "Canned and packaged tuna on supermarket shelves.jpg",
+   "artist": "Daniel Case",
+   "license": "CC BY-SA 3.0",
+   "term": "canned tuna"
+  },
+  "햄·통조림햄": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Canned_chopped_meat_or_canned_luncheon_meat_-_a_good_choice_for_the_thrifty_family_%28IA_CAT31314645%29_%28page_3_crop%29.jpg/960px-Canned_chopped_meat_or_canned_luncheon_meat_-_a_good_choice_for_the_thrifty_family_%28IA_CAT31314645%29_%28page_3_crop%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Canned_chopped_meat_or_canned_luncheon_meat_-_a_good_choice_for_the_thrifty_family_(IA_CAT31314645)_(page_3_crop).jpg",
+   "title": "Canned chopped meat or canned luncheon meat - a good choice for the thrifty family (IA CAT31314645) (page 3 crop).jpg",
+   "artist": "United States. Food and Nutrition Service United States. Department of Agriculture United States. Agricultural Research ",
+   "license": "Public domain",
+   "term": "luncheon meat canned"
+  },
+  "소시지": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Sausage_making-H-5-edited2.jpg/960px-Sausage_making-H-5-edited2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sausage_making-H-5-edited2.jpg",
+   "title": "Sausage making-H-5-edited2.jpg",
+   "artist": "László Szalai (Beyond silence)",
+   "license": "CC BY-SA 3.0",
+   "term": "sausages"
+  },
+  "어묵·맛살": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Korea_fish_cake_soup-Eomuk-Tang_%EC%96%B4%EB%AC%B5%ED%83%95-_%286768498759%29.jpg/960px-Korea_fish_cake_soup-Eomuk-Tang_%EC%96%B4%EB%AC%B5%ED%83%95-_%286768498759%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Korea_fish_cake_soup-Eomuk-Tang_%EC%96%B4%EB%AC%B5%ED%83%95-_(6768498759).jpg",
+   "title": "Korea fish cake soup-Eomuk-Tang 어묵탕- (6768498759).jpg",
+   "artist": "Chloe Lim from Seoul, South Korea",
+   "license": "CC BY 2.0",
+   "term": "fish cake eomuk"
+  },
+  "만두": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Pan_dumplings.jpg/960px-Pan_dumplings.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pan_dumplings.jpg",
+   "title": "Pan dumplings.jpg",
+   "artist": "SarKaLay စာကလေး",
+   "license": "CC BY-SA 4.0",
+   "term": "mandu dumplings"
+  },
+  "냉동식품": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Refrigerator_with_frozen_foods_in_Sailor_House_%282%29.jpg/960px-Refrigerator_with_frozen_foods_in_Sailor_House_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Refrigerator_with_frozen_foods_in_Sailor_House_(2).jpg",
+   "title": "Refrigerator with frozen foods in Sailor House (2).jpg",
+   "artist": "Andy Li",
+   "license": "CC0",
+   "term": "frozen food"
+  },
+  "초코파이·케이크과자": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/ORION_CHOCO_PIE_CHINA_VERSION_%283%29.jpg/960px-ORION_CHOCO_PIE_CHINA_VERSION_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:ORION_CHOCO_PIE_CHINA_VERSION_(3).jpg",
+   "title": "ORION CHOCO PIE CHINA VERSION (3).jpg",
+   "artist": "Dinkun Chen",
+   "license": "CC BY-SA 4.0",
+   "term": "choco pie"
+  },
+  "과자": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Potato-Chips.jpg/960px-Potato-Chips.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Potato-Chips.jpg",
+   "title": "Potato-Chips.jpg",
+   "artist": "Evan-Amos for those who dont know, this guy wrote this",
+   "license": "Public domain",
+   "term": "potato chips snack"
+  },
+  "초콜릿": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Center_of_the_Milky_Way_Galaxy_IV_%E2%80%93_Composite.jpg/960px-Center_of_the_Milky_Way_Galaxy_IV_%E2%80%93_Composite.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Center_of_the_Milky_Way_Galaxy_IV_%E2%80%93_Composite.jpg",
+   "title": "Center of the Milky Way Galaxy IV – Composite.jpg",
+   "artist": "NASA/JPL-Caltech/ESA/CXC/STScI",
+   "license": "Public domain",
+   "term": "chocolate bar"
+  },
+  "사탕·젤리·껌": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Karl_Gummies_side_view.jpg/960px-Karl_Gummies_side_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Karl_Gummies_side_view.jpg",
+   "title": "Karl Gummies side view.jpg",
+   "artist": "Johnson524",
+   "license": "CC0",
+   "term": "gummy candy"
+  },
+  "아이스크림": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Apple_cake_with_vanilla_ice_cream_2.jpg/960px-Apple_cake_with_vanilla_ice_cream_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Apple_cake_with_vanilla_ice_cream_2.jpg",
+   "title": "Apple cake with vanilla ice cream 2.jpg",
+   "artist": "W.carter",
+   "license": "CC0",
+   "term": "ice cream"
+  },
+  "식빵·빵": {
+   "image": "https://upload.wikimedia.org/wikipedia/commons/7/70/Quarter_Mutton_Bunny_Chow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Quarter_Mutton_Bunny_Chow.jpg",
+   "title": "Quarter Mutton Bunny Chow.jpg",
+   "artist": "Luke Comins",
+   "license": "CC BY-SA 3.0",
+   "term": "white bread loaf"
+  },
+  "견과·건과": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Liat_Portal_for_Foodie_Disorder_-_Mixed_nuts_assortment.jpg/960px-Liat_Portal_for_Foodie_Disorder_-_Mixed_nuts_assortment.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Mixed_nuts_assortment.jpg",
+   "title": "Liat Portal for Foodie Disorder - Mixed nuts assortment.jpg",
+   "artist": "HaJunkiyada",
+   "license": "CC BY-SA 4.0",
+   "term": "mixed nuts"
+  },
+  "치즈": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/White_cheddar_cheese_sliced_CNE.jpg/960px-White_cheddar_cheese_sliced_CNE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:White_cheddar_cheese_sliced_CNE.jpg",
+   "title": "White cheddar cheese sliced CNE.jpg",
+   "artist": "CNEcija12345",
+   "license": "CC BY-SA 4.0",
+   "term": "sliced cheese"
+  },
+  "버터·마가린": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Antoine_Vollon_-_Mound_of_Butter_-_National_Gallery_of_Art.jpg/960px-Antoine_Vollon_-_Mound_of_Butter_-_National_Gallery_of_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Antoine_Vollon_-_Mound_of_Butter_-_National_Gallery_of_Art.jpg",
+   "title": "Antoine Vollon - Mound of Butter - National Gallery of Art.jpg",
+   "artist": "Antoine Vollon",
+   "license": "Public domain",
+   "term": "butter"
+  },
+  "분유·이유식": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Baby_Formula_Powder_%2850841930296%29.jpg/960px-Baby_Formula_Powder_%2850841930296%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baby_Formula_Powder_(50841930296).jpg",
+   "title": "Baby Formula Powder (50841930296).jpg",
+   "artist": "ajay_suresh",
+   "license": "CC BY 2.0",
+   "term": "infant formula powder"
+  },
+  "두부": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Billyfoodmabodofu3.jpg/960px-Billyfoodmabodofu3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Billyfoodmabodofu3.jpg",
+   "title": "Billyfoodmabodofu3.jpg",
+   "artist": "Archon6812",
+   "license": "CC BY-SA 3.0",
+   "term": "tofu"
+  },
+  "콩나물·나물": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Kongnamul_%28soybean_sprout%29_2.jpg/960px-Kongnamul_%28soybean_sprout%29_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kongnamul_(soybean_sprout)_2.jpg",
+   "title": "Kongnamul (soybean sprout) 2.jpg",
+   "artist": "Hyeon-Jeong Suk",
+   "license": "CC BY 2.0",
+   "term": "soybean sprouts"
+  },
+  "우유": {
+   "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/The_Milk_Carton_Kids_at_9-30_Club_in_Washington_DC_August_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Milk_Carton_Kids_at_9-30_Club_in_Washington_DC_August_2012.jpg",
+   "title": "The Milk Carton Kids at 9-30 Club in Washington DC August 2012.jpg",
+   "artist": "ChunkyGlasses",
+   "license": "CC BY 2.0",
+   "term": "milk carton"
+  },
+  "발효유": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Joghurt.jpg/960px-Joghurt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Joghurt.jpg",
+   "title": "Joghurt.jpg",
+   "artist": "No machine-readable author provided. Rainer Zenz assumed (based on copyright claims).",
+   "license": "CC BY-SA 3.0",
+   "term": "yogurt"
+  },
+  "계란": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Egg_cartons_with_chicken_eggs_03.jpg/960px-Egg_cartons_with_chicken_eggs_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Egg_cartons_with_chicken_eggs_03.jpg",
+   "title": "Egg cartons with chicken eggs 03.jpg",
+   "artist": "Krzysztof Golik",
+   "license": "CC BY-SA 4.0",
+   "term": "chicken eggs carton"
+  },
+  "시리얼": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/%28a_glass_of_orange_juice_with_a_banana%2C_a_round_waffle%2C_a_bowl_of_chocolate_breakfast_cereal_with_milk%29.jpg/960px-%28a_glass_of_orange_juice_with_a_banana%2C_a_round_waffle%2C_a_bowl_of_chocolate_breakfast_cereal_with_milk%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:(a_glass_of_orange_juice_with_a_banana,_a_round_waffle,_a_bowl_of_chocolate_breakfast_cereal_with_milk).jpg",
+   "title": "(a glass of orange juice with a banana, a round waffle, a bowl of chocolate breakfast cereal with milk).jpg",
+   "artist": "David Adam Kess",
+   "license": "CC BY-SA 4.0",
+   "term": "breakfast cereal bowl"
+  },
+  "커피믹스": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/From_coffee_bean_to_instant_coffee_01.jpg/960px-From_coffee_bean_to_instant_coffee_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:From_coffee_bean_to_instant_coffee_01.jpg",
+   "title": "From coffee bean to instant coffee 01.jpg",
+   "artist": "Heiti Paves",
+   "license": "CC BY 4.0",
+   "term": "instant coffee"
+  },
+  "차": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Teebeutel_Polylactid_2009.jpg/960px-Teebeutel_Polylactid_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Teebeutel_Polylactid_2009.jpg",
+   "title": "Teebeutel Polylactid 2009.jpg",
+   "artist": "Elke Wetzig (elya)",
+   "license": "CC BY-SA 3.0",
+   "term": "tea bags"
+  },
+  "콜라": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Drink_%22Favorite_Cola%22.jpg/960px-Drink_%22Favorite_Cola%22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Drink_%22Favorite_Cola%22.jpg",
+   "title": "Drink \"Favorite Cola\".jpg",
+   "artist": "Будущее Прекрасно",
+   "license": "CC0",
+   "term": "cola soft drink bottle"
+  },
+  "사이다·탄산음료": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Soft_drink_shelf_2.jpg/960px-Soft_drink_shelf_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Soft_drink_shelf_2.jpg",
+   "title": "Soft drink shelf 2.jpg",
+   "artist": "Wilfredor",
+   "license": "CC BY-SA 4.0",
+   "term": "soft drink cans"
+  },
+  "생수": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Home_water_filters%2C_water_purifiers%2C_and_bottled_water_in_India.jpg/960px-Home_water_filters%2C_water_purifiers%2C_and_bottled_water_in_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Home_water_filters,_water_purifiers,_and_bottled_water_in_India.jpg",
+   "title": "Home water filters, water purifiers, and bottled water in India.jpg",
+   "artist": "FacetsOfNonStickPans",
+   "license": "CC BY-SA 4.0",
+   "term": "bottled water"
+  },
+  "주스": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Orange_juice_1_edit1.jpg/960px-Orange_juice_1_edit1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Orange_juice_1_edit1.jpg",
+   "title": "Orange juice 1 edit1.jpg",
+   "artist": "Agency of the United States Department of Agriculture Edited Version by: Arad",
+   "license": "Public domain",
+   "term": "orange juice"
+  },
+  "이온·기능음료": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Plastic_sports_drink_bottle_bong_-_image_1_of_2.jpg/960px-Plastic_sports_drink_bottle_bong_-_image_1_of_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plastic_sports_drink_bottle_bong_-_image_1_of_2.jpg",
+   "title": "Plastic sports drink bottle bong - image 1 of 2.jpg",
+   "artist": "Xyxyzyz",
+   "license": "CC0",
+   "term": "sports drink bottle"
+  },
+  "맥주": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Beer_bottles_2018_G1.jpg/960px-Beer_bottles_2018_G1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beer_bottles_2018_G1.jpg",
+   "title": "Beer bottles 2018 G1.jpg",
+   "artist": "George Chernilevsky",
+   "license": "Public domain",
+   "term": "beer bottles"
+  },
+  "소주": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Soju_Bottle_Offering_on_Inwangsan.jpg/960px-Soju_Bottle_Offering_on_Inwangsan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Soju_Bottle_Offering_on_Inwangsan.jpg",
+   "title": "Soju Bottle Offering on Inwangsan.jpg",
+   "artist": "Ethan Doyle White",
+   "license": "CC BY-SA 4.0",
+   "term": "soju bottle"
+  },
+  "막걸리·주류": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Makgeolli_4.jpg/960px-Makgeolli_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Makgeolli_4.jpg",
+   "title": "Makgeolli 4.jpg",
+   "artist": "jinho kim",
+   "license": "CC0",
+   "term": "makgeolli"
+  },
+  "식용유": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Flat_toothed_salad_oil_bottle_filter.jpg/960px-Flat_toothed_salad_oil_bottle_filter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flat_toothed_salad_oil_bottle_filter.jpg",
+   "title": "Flat toothed salad oil bottle filter.jpg",
+   "artist": "Jidanni",
+   "license": "CC BY-SA 4.0",
+   "term": "cooking oil bottle"
+  },
+  "김": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Gimbap_and_danmuji.jpg/960px-Gimbap_and_danmuji.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gimbap_and_danmuji.jpg",
+   "title": "Gimbap and danmuji.jpg",
+   "artist": "bryan... from Taipei, Taiwan",
+   "license": "CC BY-SA 2.0",
+   "term": "gim seaweed sheets"
+  },
+  "참기름·들기름": {
+   "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/SesameSeedOil.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:SesameSeedOil.png",
+   "title": "SesameSeedOil.png",
+   "artist": "Itineranttrader",
+   "license": "Public domain",
+   "term": "sesame oil"
+  },
+  "설탕": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Bumbu_Rawon.jpg/960px-Bumbu_Rawon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bumbu_Rawon.jpg",
+   "title": "Bumbu Rawon.jpg",
+   "artist": "Herusutimbul",
+   "license": "CC BY-SA 4.0",
+   "term": "white sugar"
+  },
+  "소금": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Marakkanam_Salt_Pans.JPG/960px-Marakkanam_Salt_Pans.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marakkanam_Salt_Pans.JPG",
+   "title": "Marakkanam Salt Pans.JPG",
+   "artist": "Dey.sandip",
+   "license": "CC BY 3.0",
+   "term": "salt"
+  },
+  "밀가루·부침가루": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/All-Purpose_Flour_%284107895947%29.jpg/960px-All-Purpose_Flour_%284107895947%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:All-Purpose_Flour_(4107895947).jpg",
+   "title": "All-Purpose Flour (4107895947).jpg",
+   "artist": "Veganbaking.net from USA",
+   "license": "CC BY-SA 2.0",
+   "term": "wheat flour"
+  },
+  "고추장": {
+   "image": "https://upload.wikimedia.org/wikipedia/commons/2/21/Kimchi_and_Gochujang_by_johl.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kimchi_and_Gochujang_by_johl.jpg",
+   "title": "Kimchi and Gochujang by johl.jpg",
+   "artist": "johl",
+   "license": "CC BY-SA 2.0",
+   "term": "gochujang"
+  },
+  "된장·쌈장": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Doenjang_%28cropped%29.jpg/960px-Doenjang_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Doenjang_(cropped).jpg",
+   "title": "Doenjang (cropped).jpg",
+   "artist": "국립국어원",
+   "license": "CC BY-SA 2.0 kr",
+   "term": "doenjang"
+  },
+  "간장": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/LEE_KUM_KEE_LIGHT_SOY_SAUCE_BIG_BOTTLE_CHINA_VERSION.jpg/960px-LEE_KUM_KEE_LIGHT_SOY_SAUCE_BIG_BOTTLE_CHINA_VERSION.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:LEE_KUM_KEE_LIGHT_SOY_SAUCE_BIG_BOTTLE_CHINA_VERSION.jpg",
+   "title": "LEE KUM KEE LIGHT SOY SAUCE BIG BOTTLE CHINA VERSION.jpg",
+   "artist": "Dinkun Chen",
+   "license": "CC BY-SA 4.0",
+   "term": "soy sauce bottle"
+  },
+  "케첩·마요네즈": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Mustard_Mayonnaise_Ketchup_Brown_Sauce_Vinegar_02.JPG/960px-Mustard_Mayonnaise_Ketchup_Brown_Sauce_Vinegar_02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mustard_Mayonnaise_Ketchup_Brown_Sauce_Vinegar_02.JPG",
+   "title": "Mustard Mayonnaise Ketchup Brown Sauce Vinegar 02.JPG",
+   "artist": "Benreis",
+   "license": "CC BY-SA 4.0",
+   "term": "ketchup mayonnaise"
+  },
+  "카레·짜장": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Beef_curry_rice_003.jpg/960px-Beef_curry_rice_003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beef_curry_rice_003.jpg",
+   "title": "Beef curry rice 003.jpg",
+   "artist": "Ocdp",
+   "license": "CC0",
+   "term": "Japanese curry"
+  },
+  "젓갈": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Korea-Gyeongdong_Market-Various_jeotgal-01.jpg/960px-Korea-Gyeongdong_Market-Various_jeotgal-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Korea-Gyeongdong_Market-Various_jeotgal-01.jpg",
+   "title": "Korea-Gyeongdong Market-Various jeotgal-01.jpg",
+   "artist": "hwayoungjung",
+   "license": "CC BY-SA 2.0",
+   "term": "jeotgal salted seafood"
+  },
+  "양념·조미료": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Salt_and_Pepper_%2825024146547%29.jpg/960px-Salt_and_Pepper_%2825024146547%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Salt_and_Pepper_(25024146547).jpg",
+   "title": "Salt and Pepper (25024146547).jpg",
+   "artist": "Theo Crazzolara",
+   "license": "CC BY 2.0",
+   "term": "seasoning condiments"
+  },
+  "김치": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Triple_White_Kimchi_05.jpg/960px-Triple_White_Kimchi_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Triple_White_Kimchi_05.jpg",
+   "title": "Triple White Kimchi 05.jpg",
+   "artist": "korea.net",
+   "license": "CC BY-SA 2.0",
+   "term": "kimchi"
+  },
+  "떡": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Korean_rice_cake_Korean_tteok.jpg/960px-Korean_rice_cake_Korean_tteok.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Korean_rice_cake_Korean_tteok.jpg",
+   "title": "Korean rice cake Korean tteok.jpg",
+   "artist": "Startandstar",
+   "license": "CC0",
+   "term": "tteok rice cake"
+  },
+  "꿀·잼": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Three_French_monofloral_honey_jars.jpg/960px-Three_French_monofloral_honey_jars.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Three_French_monofloral_honey_jars.jpg",
+   "title": "Three French monofloral honey jars.jpg",
+   "artist": "Hayden Soloviev",
+   "license": "CC BY 4.0",
+   "term": "honey jar"
+  },
+  "쌀·잡곡": {
+   "image": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Rice_Grains_.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rice_Grains_.png",
+   "title": "Rice Grains .png",
+   "artist": "Hpannu7",
+   "license": "CC BY-SA 4.0",
+   "term": "rice grains"
+  },
+  "돼지고기": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Samgyeopsal_Korean_pork_belly_and_Kimchi.jpg/960px-Samgyeopsal_Korean_pork_belly_and_Kimchi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Samgyeopsal_Korean_pork_belly_and_Kimchi.jpg",
+   "title": "Samgyeopsal Korean pork belly and Kimchi.jpg",
+   "artist": "Startandstar",
+   "license": "CC0",
+   "term": "pork belly samgyeopsal"
+  },
+  "쇠고기": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/DoughnDolce_Beef_Sandwich.jpg/960px-DoughnDolce_Beef_Sandwich.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:DoughnDolce_Beef_Sandwich.jpg",
+   "title": "DoughnDolce Beef Sandwich.jpg",
+   "artist": "Vincent60030",
+   "license": "CC BY-SA 4.0",
+   "term": "raw beef"
+  },
+  "닭고기": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Raw_chicken.jpg/960px-Raw_chicken.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Raw_chicken.jpg",
+   "title": "Raw chicken.jpg",
+   "artist": "Bhaskaranaidu",
+   "license": "CC BY-SA 3.0",
+   "term": "raw chicken meat"
+  },
+  "수산물": {
+   "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Fresh_Fish_Market_in_Naga_Bazar%2C_Katila%2C_Bagmara%2C_Rajshahi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fresh_Fish_Market_in_Naga_Bazar,_Katila,_Bagmara,_Rajshahi.jpg",
+   "title": "Fresh Fish Market in Naga Bazar, Katila, Bagmara, Rajshahi.jpg",
+   "artist": "NagaBazarRajshahi",
+   "license": "CC BY-SA 4.0",
+   "term": "fresh fish market"
+  },
+  "과일": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Fresh_Fruit_Plate.jpg/960px-Fresh_Fruit_Plate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fresh_Fruit_Plate.jpg",
+   "title": "Fresh Fruit Plate.jpg",
+   "artist": "روتانا",
+   "license": "CC BY 4.0",
+   "term": "fresh fruit"
+  },
+  "채소": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Illuminated_facade_of_a_restaurant_serving_traditional_food_with_fresh_vegetables_in_Chiyoda%2C_Tokyo.jpg/960px-Illuminated_facade_of_a_restaurant_serving_traditional_food_with_fresh_vegetables_in_Chiyoda%2C_Tokyo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Illuminated_facade_of_a_restaurant_serving_traditional_food_with_fresh_vegetables_in_Chiyoda,_Tokyo.jpg",
+   "title": "Illuminated facade of a restaurant serving traditional food with fresh vegetables in Chiyoda, Tokyo.jpg",
+   "artist": "Basile Morin",
+   "license": "CC BY-SA 4.0",
+   "term": "fresh vegetables"
+  },
+  "기저귀": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Preschooler_in_Size_4_Pampers_Baby_Dry_Disposable_Diaper_1.jpg/960px-Preschooler_in_Size_4_Pampers_Baby_Dry_Disposable_Diaper_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Preschooler_in_Size_4_Pampers_Baby_Dry_Disposable_Diaper_1.jpg",
+   "title": "Preschooler in Size 4 Pampers Baby Dry Disposable Diaper 1.jpg",
+   "artist": "ParentingPatch",
+   "license": "CC BY-SA 4.0",
+   "term": "disposable diapers"
+  },
+  "방향·탈취·살충": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Air_Wick_automatic_air_freshener-5060.jpg/960px-Air_Wick_automatic_air_freshener-5060.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Air_Wick_automatic_air_freshener-5060.jpg",
+   "title": "Air Wick automatic air freshener-5060.jpg",
+   "artist": "Raimond Spekking",
+   "license": "CC BY-SA 4.0",
+   "term": "air freshener"
+  },
+  "섬유유연제": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Globus_Saarbr%C3%BCcken%2C_fabric_softener_pic7.JPG/960px-Globus_Saarbr%C3%BCcken%2C_fabric_softener_pic7.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Globus_Saarbr%C3%BCcken,_fabric_softener_pic7.JPG",
+   "title": "Globus Saarbrücken, fabric softener pic7.JPG",
+   "artist": "Alf van Beem",
+   "license": "Public domain",
+   "term": "fabric softener"
+  },
+  "세탁세제": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Woman_in_the_shadow_of_a_conical_hat_made_of_repurposed_bags_of_laundry_detergent_in_Don_Det_Laos.jpg/960px-Woman_in_the_shadow_of_a_conical_hat_made_of_repurposed_bags_of_laundry_detergent_in_Don_Det_Laos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Woman_in_the_shadow_of_a_conical_hat_made_of_repurposed_bags_of_laundry_detergent_in_Don_Det_Laos.jpg",
+   "title": "Woman in the shadow of a conical hat made of repurposed bags of laundry detergent in Don Det Laos.jpg",
+   "artist": "Basile Morin",
+   "license": "CC BY-SA 4.0",
+   "term": "laundry detergent"
+  },
+  "주방세제": {
+   "image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Reeva_antibacterial_liquid_soap.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Reeva_antibacterial_liquid_soap.jpg",
+   "title": "Reeva antibacterial liquid soap.jpg",
+   "artist": "Ajpolino",
+   "license": "CC BY-SA 4.0",
+   "term": "dish soap bottle"
+  },
+  "수세미·청소도구": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Cooked_Sponge_gourd.jpg/960px-Cooked_Sponge_gourd.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cooked_Sponge_gourd.jpg",
+   "title": "Cooked Sponge gourd.jpg",
+   "artist": "Gouravsb17",
+   "license": "CC BY-SA 4.0",
+   "term": "dish sponge"
+  },
+  "락스·세정제": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/HK_Kao_Bleaches_2.JPG/960px-HK_Kao_Bleaches_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:HK_Kao_Bleaches_2.JPG",
+   "title": "HK Kao Bleaches 2.JPG",
+   "artist": "Meadohsum",
+   "license": "CC BY-SA 3.0",
+   "term": "bleach bottle"
+  },
+  "물티슈": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Wet_wipes_on_a_shelf.jpg/960px-Wet_wipes_on_a_shelf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wet_wipes_on_a_shelf.jpg",
+   "title": "Wet wipes on a shelf.jpg",
+   "artist": "維基小霸王",
+   "license": "CC BY-SA 4.0",
+   "term": "wet wipes"
+  },
+  "키친타월": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Roll_of_Paper_Towels.jpg/960px-Roll_of_Paper_Towels.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roll_of_Paper_Towels.jpg",
+   "title": "Roll of Paper Towels.jpg",
+   "artist": "MrBeastRapper",
+   "license": "CC BY-SA 4.0",
+   "term": "paper towel roll"
+  },
+  "마스크·위생": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Woman_sewing_a_face_mask_with_a_Singer_machine_09.jpg/960px-Woman_sewing_a_face_mask_with_a_Singer_machine_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Woman_sewing_a_face_mask_with_a_Singer_machine_09.jpg",
+   "title": "Woman sewing a face mask with a Singer machine 09.jpg",
+   "artist": "Tadeáš Bednarz",
+   "license": "CC BY-SA 4.0",
+   "term": "face mask"
+  },
+  "화장지": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Stacked_rolls_of_toilet_paper%2C_Tunnicliff%27s_Tavern.jpg/960px-Stacked_rolls_of_toilet_paper%2C_Tunnicliff%27s_Tavern.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stacked_rolls_of_toilet_paper,_Tunnicliff%27s_Tavern.jpg",
+   "title": "Stacked rolls of toilet paper, Tunnicliff's Tavern.jpg",
+   "artist": "Ser Amantio di Nicolao",
+   "license": "CC BY-SA 4.0",
+   "term": "toilet paper rolls"
+  },
+  "생리대": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/A_Sanitary_Towel_on_White_Background.jpg/960px-A_Sanitary_Towel_on_White_Background.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_Sanitary_Towel_on_White_Background.jpg",
+   "title": "A Sanitary Towel on White Background.jpg",
+   "artist": "Linn.KnowSex",
+   "license": "CC BY 4.0",
+   "term": "sanitary pad"
+  },
+  "칫솔": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Toothbrush_x3_20050716_002.jpg/960px-Toothbrush_x3_20050716_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Toothbrush_x3_20050716_002.jpg",
+   "title": "Toothbrush x3 20050716 002.jpg",
+   "artist": "Jonas Bergsten",
+   "license": "Public domain",
+   "term": "toothbrush"
+  },
+  "치약": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Vitis_Dentaid_toothpaste_tube%2C_Hillegersberg%2C_Rotterdam_%282021%29_02.jpg/960px-Vitis_Dentaid_toothpaste_tube%2C_Hillegersberg%2C_Rotterdam_%282021%29_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vitis_Dentaid_toothpaste_tube,_Hillegersberg,_Rotterdam_(2021)_02.jpg",
+   "title": "Vitis Dentaid toothpaste tube, Hillegersberg, Rotterdam (2021) 02.jpg",
+   "artist": "Donald Trung Quoc Don (Chữ Hán: 徵國單) - Wikimedia Commons - © CC BY-SA 4.0 International.(Want to use this image?)Origina",
+   "license": "CC BY-SA 4.0",
+   "term": "toothpaste tube"
+  },
+  "구강청결제": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Colgate_Alcohol_Free_Mouthwash.jpg/960px-Colgate_Alcohol_Free_Mouthwash.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Colgate_Alcohol_Free_Mouthwash.jpg",
+   "title": "Colgate Alcohol Free Mouthwash.jpg",
+   "artist": "Editor182 (talk)",
+   "license": "Public domain",
+   "term": "mouthwash bottle"
+  },
+  "린스·트리트먼트": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Hair_shampoos%2C_conditioners_and_other_hair_care_products_in_liter_bottles_for_use_in_hair_salon.jpg/960px-Hair_shampoos%2C_conditioners_and_other_hair_care_products_in_liter_bottles_for_use_in_hair_salon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hair_shampoos,_conditioners_and_other_hair_care_products_in_liter_bottles_for_use_in_hair_salon.jpg",
+   "title": "Hair shampoos, conditioners and other hair care products in liter bottles for use in hair salon.jpg",
+   "artist": "Pittigrilli",
+   "license": "CC BY-SA 4.0",
+   "term": "hair conditioner bottle"
+  },
+  "샴푸": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Dove_shampoo_bottle_in_black_background.jpg/960px-Dove_shampoo_bottle_in_black_background.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dove_shampoo_bottle_in_black_background.jpg",
+   "title": "Dove shampoo bottle in black background.jpg",
+   "artist": "Ranjima np",
+   "license": "CC0",
+   "term": "shampoo bottle"
+  },
+  "비누·핸드워시": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Handmade_soap.jpg/960px-Handmade_soap.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Handmade_soap.jpg",
+   "title": "Handmade soap.jpg",
+   "artist": "Malene Thyssen",
+   "license": "CC BY 2.5",
+   "term": "bar soap"
+  },
+  "바디워시": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Post_Medieval_bottle_body_sherd_%28FindID_276859%29.jpg/960px-Post_Medieval_bottle_body_sherd_%28FindID_276859%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Post_Medieval_bottle_body_sherd_(FindID_276859).jpg",
+   "title": "Post Medieval bottle body sherd (FindID 276859).jpg",
+   "artist": "Sussex Archaeological Society, Laura Burnett, 2009-11-17 11:26:59",
+   "license": "CC BY-SA 2.0",
+   "term": "body wash bottle"
+  },
+  "헤어스타일링·염색": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Hair_coloring%2C_Barbershop_From_Iran_03.jpg/960px-Hair_coloring%2C_Barbershop_From_Iran_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hair_coloring,_Barbershop_From_Iran_03.jpg",
+   "title": "Hair coloring, Barbershop From Iran 03.jpg",
+   "artist": "Mostafameraji",
+   "license": "CC0",
+   "term": "hair dye"
+  },
+  "선크림": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Sunbum_sunscreen_spf_30.jpg/960px-Sunbum_sunscreen_spf_30.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sunbum_sunscreen_spf_30.jpg",
+   "title": "Sunbum sunscreen spf 30.jpg",
+   "artist": "David Chancey",
+   "license": "CC BY-SA 4.0",
+   "term": "sunscreen tube"
+  },
+  "면도·제모": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Safety_razor_shaving_kit.jpg/960px-Safety_razor_shaving_kit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Safety_razor_shaving_kit.jpg",
+   "title": "Safety razor shaving kit.jpg",
+   "artist": "Hustvedt",
+   "license": "CC BY-SA 3.0",
+   "term": "razor shaving"
+  },
+  "고무장갑": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Butyl_rubber_gloves.JPG/960px-Butyl_rubber_gloves.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Butyl_rubber_gloves.JPG",
+   "title": "Butyl rubber gloves.JPG",
+   "artist": "MatChem121",
+   "license": "CC BY 3.0",
+   "term": "rubber gloves"
+  },
+  "쓰레기봉투·비닐": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Garbage_bags_outside_in_neighborhood_at_twilight.jpg/960px-Garbage_bags_outside_in_neighborhood_at_twilight.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Garbage_bags_outside_in_neighborhood_at_twilight.jpg",
+   "title": "Garbage bags outside in neighborhood at twilight.jpg",
+   "artist": "Yitzilitt",
+   "license": "CC BY-SA 4.0",
+   "term": "garbage bags"
+  },
+  "건전지": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/AA_VARTA_battery-side_PNr%C2%B00782.jpg/960px-AA_VARTA_battery-side_PNr%C2%B00782.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:AA_VARTA_battery-side_PNr%C2%B00782.jpg",
+   "title": "AA VARTA battery-side PNr°0782.jpg",
+   "artist": "D-Kuru",
+   "license": "CC BY-SA 4.0",
+   "term": "AA batteries"
+  },
+  "일회용품": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Paper_Cups_-_isolated.png/960px-Paper_Cups_-_isolated.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paper_Cups_-_isolated.png",
+   "title": "Paper Cups - isolated.png",
+   "artist": "Alanthebox",
+   "license": "CC0",
+   "term": "paper cups"
+  },
+  "부탄가스·연료": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Butane_Canister_Valve_Connection.jpg/960px-Butane_Canister_Valve_Connection.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Butane_Canister_Valve_Connection.jpg",
+   "title": "Butane Canister Valve Connection.jpg",
+   "artist": "Jan van Bekkum",
+   "license": "CC BY-SA 4.0",
+   "term": "butane gas canister"
+  },
+  "반려동물용품": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Dog_food_in_a_bowl.jpg/960px-Dog_food_in_a_bowl.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dog_food_in_a_bowl.jpg",
+   "title": "Dog food in a bowl.jpg",
+   "artist": "James Redekop",
+   "license": "CC BY-SA 2.0",
+   "term": "dog food bowl"
+  },
+  "기타 가공식품": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Grocery_store_shelf_in_Russia.jpg/960px-Grocery_store_shelf_in_Russia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grocery_store_shelf_in_Russia.jpg",
+   "title": "Grocery store shelf in Russia.jpg",
+   "artist": "Alexander Davronov",
+   "license": "CC BY-SA 4.0",
+   "term": "grocery store shelf"
+  },
+  "기타 생활용품": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Household_goods_in_1980s_at_PRC70_Exhibition_%2820191203155418%29.jpg/960px-Household_goods_in_1980s_at_PRC70_Exhibition_%2820191203155418%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Household_goods_in_1980s_at_PRC70_Exhibition_(20191203155418).jpg",
+   "title": "Household goods in 1980s at PRC70 Exhibition (20191203155418).jpg",
+   "artist": "N509FZ",
+   "license": "CC BY-SA 4.0",
+   "term": "household products"
+  },
+  "기타 화장품": {
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Cosmetics-1078712_1280.jpg/960px-Cosmetics-1078712_1280.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cosmetics-1078712_1280.jpg",
+   "title": "Cosmetics-1078712 1280.jpg",
+   "artist": "camillaperrucci",
+   "license": "CC0",
+   "term": "cosmetics"
+  }
+ },
+ "missing": [
+  "국수·면",
+  "클렌징",
+  "스킨·로션",
+  "랩·호일·지퍼백"
+ ]
+}
